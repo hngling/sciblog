@@ -16,13 +16,16 @@ email: "ling.huang.2019@mitb.smu.edu.sg"
 highlight_name: true
 interests:
 - Data Analytics
+- Data Visualization
 - Product Management
 - UI/UX Design
 - User Research
+- Traveling
+- Foodie
 organizations:
 - name: Singapore Management University
   url: https://www.smu.edu.sg/
-role: Student from FinTech and Analytics
+role: Part-time Student from FinTech and Analytics Track
 social:
 - icon: envelope
   icon_pack: fas
@@ -46,7 +49,7 @@ superuser: true
 title: Ling Huang
 ---
 
-Ling Huang is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ling Huang is a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 

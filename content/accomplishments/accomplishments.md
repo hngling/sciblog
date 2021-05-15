@@ -4,17 +4,17 @@
 widget: accomplishments
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 46
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
-subtitle: Certificates and Awards
+title: 'Certificates'
+subtitle: From Instructor-Led Training and Online learning 
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
