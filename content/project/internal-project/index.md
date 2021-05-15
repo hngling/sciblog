@@ -5,15 +5,17 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 links:
-- icon: twitter
+- icon: weixin
   icon_pack: fab
-  name: Follow
+  name: Get the Link
   url: https://twitter.com/georgecushen
 slides: example
-summary: An example of using the in-built project page.
+summary: Data Visualization projects for fun
 tags:
 - Deep Learning
-title: Internal Project
+- Data Visualization
+- Predictive Modeling
+title: Side Project
 url_code: ""
 url_pdf: ""
 url_slides: ""

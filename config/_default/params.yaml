@@ -34,25 +34,21 @@ coordinates:
   longitude: '103.852119'
 directions: Near Bras Basah MRT Station
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
+  - 'Weekdays 10:00 to 13:00'
+  - 'Weekends 14:00 to 18:00'
 appointment_url: 'https://www.smu.edu.sg'
 contact_links:
   - icon: twitter
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
+    name: Twitter Me
+    link: 'https://twitter.com/hngling2'
+  - icon: sms
+    icon_pack: fa
+    name: Whatsapp Me
     link: 'https://keybase.io/'
   - icon: comments
     icon_pack: fas
-    name: Discuss on Forum
+    name: Telegraph Me
     link: 'https://discourse.gohugo.io'
 
 # Site header

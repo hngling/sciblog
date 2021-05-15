@@ -1,6 +1,5 @@
 ---
-bio: Hey, I'm a student in SMU.
-  matter.
+bio: Hey, I'm a part-time student in SMU.
 education:
   courses:
   - course: Master of IT in Business
