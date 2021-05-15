@@ -3,14 +3,17 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: portfolio
 
+# Activate this widget? true/false
+active: true
+
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
 weight: 65
 
-title: Projects
-subtitle: ''
+title: My Projects
+subtitle: 'Display my school projects and side projects'
 
 content:
   # Page type to display. E.g. project.
@@ -44,5 +47,5 @@ design:
   view: 2
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows: false
+  flip_alt_rows: true
 ---

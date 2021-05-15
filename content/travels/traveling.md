@@ -3,14 +3,17 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featured
 
+# This is to turn on/off the section on the page: true/false
+active: true
+
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
 weight: 80
 
-title: Featured Publications
-subtitle: ""
+title: Traveling
+subtitle: "Exploring the whole world with adventurous spirit"
 
 content:
   # Page type to display. E.g. post, talk, publication...

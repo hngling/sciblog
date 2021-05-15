@@ -13,7 +13,7 @@ education:
     institution: BUPT
     year: 2007
 email: "ling.huang.2019@mitb.smu.edu.sg"
-highlight_name: false
+highlight_name: true
 interests:
 - Data Analytics
 - Product Management
