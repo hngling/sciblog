@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 78
 
-title: My Resume
+title: Short summary of my projects
 subtitle: "Updated on 2021 May 04"
 
 content:
@@ -35,5 +35,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 3
+  view: 2
 ---

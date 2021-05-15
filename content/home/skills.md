@@ -43,10 +43,10 @@ feature:
   icon: landmark
   icon_pack: fas
   name: Digital Banking
-- description: 80%
+- description: 180%
   icon: ":smile:"
   icon_pack: "emoji"
-  name: Digital
+  name: Humor
 - description: 80%
   icon: "Tableau"
   icon_pack: "emoji"

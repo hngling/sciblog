@@ -4,7 +4,7 @@
 widget: pages
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true
@@ -13,7 +13,7 @@ headless: true
 weight: 60
 
 title: Recent Posts
-subtitle:
+subtitle: View the most recent posts
 
 content:
   # Page type to display. E.g. post, talk, publication...
