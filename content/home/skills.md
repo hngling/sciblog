@@ -10,7 +10,7 @@ headless: true
 weight: 30
 
 title: Skills
-subtitle:
+subtitle: technical skills obtained through academic training and on-the-job learning
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
@@ -20,20 +20,40 @@ feature:
   icon: r-project
   icon_pack: fab
   name: R
+- description: 30%
+  icon: python
+  icon_pack: fab
+  name: Python
+- description: 80%
+  icon: table
+  icon_pack: fas
+  name: Tableau
 - description: 100%
   icon: chart-line
   icon_pack: fas
-  name: Statistics
+  name: Applied Statistics
 - description: 10%
-  icon: camera-retro
+  icon: laptop-code
   icon_pack: fas
-  name: Photography
+  name: Machine Learning
+- description: 80%
+  icon: landmark
+  icon_pack: fas
+  name: Digital Banking
+- description: 80%
+  icon: ":smile:"
+  icon_pack: "emoji"
+  name: Digital
+- description: 80%
+  icon: "Tableau"
+  icon_pack: "emoji"
+  name: Tablaeu
 
 # Uncomment to use emoji icons.
-#- icon = ":smile:"
+# - icon = ":smile:"
 #  icon_pack = "emoji"
 #  name = "Emojiness"
-#  description = "100%"  
+#  description = "100%"
 
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.

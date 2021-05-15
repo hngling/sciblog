@@ -22,28 +22,39 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Product Manager
+    company: Lazada South East Asia Pte Ltd
+    company_url: 'https://group.lazada.com'
+    company_logo: Lazada_(2019)
+    location: Singapore
+    date_start: '2019-03-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
+        * Product Management
+        * Prototyping
+        * Analysing Data
+        * Modelling Data
         * Deploying
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Consultant
+    company: LogicBay Corp
+    company_url: 'http://logicbay.com'
+    company_logo: logicbay
+    location: Singapore
+    date_start: '2011-12-01'
+    date_end: '2018-10-31'
+    description: Support Caterpillar Inc. in Asia Pacific and Caterpillar Dealerships in Asia Pacific
+  
+  - title: Engineer & Service Manager
+    company: Huawei International Pte Ltd
+    company_url: 'https://huawei.com'
+    company_logo: Huawei
+    location: Singapore
+    date_start: '2009-12-01'
+    date_end: '2011-11-30'
+    description: Support the pre-sales technical testing. Manage the exclusive Huawei service centre in Singapore back then.  
 
 design:
   columns: '2'
