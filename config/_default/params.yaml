@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: minimal
+theme: 1950s
 day_night: true
 font: ''
 font_size: L
@@ -21,7 +21,6 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: ling.huang.2019@mitb.smu.edu.sg
-phone: +65 98965655
 address:
   street: 80 Stamford Road
   city: Singapore
@@ -33,23 +32,15 @@ coordinates:
   latitude: '1.296568'
   longitude: '103.852119'
 directions: Near Bras Basah MRT Station
-office_hours:
-  - 'Weekdays 10:00 to 13:00'
-  - 'Weekends 14:00 to 18:00'
-appointment_url: 'https://www.smu.edu.sg'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: Twitter Me
     link: 'https://twitter.com/hngling2'
-  - icon: sms
-    icon_pack: fa
-    name: Whatsapp Me
-    link: 'https://keybase.io/'
   - icon: comments
     icon_pack: fas
-    name: Telegraph Me
-    link: 'https://discourse.gohugo.io'
+    name: Email Me
+    link: ''
 
 # Site header
 
