@@ -1,0 +1,559 @@
+---
+title: South East Asia Armed Conflicts
+author: ''
+date: '2021-05-17'
+slug: south-east-asia-armed-conflicts
+categories: ["DataViz", "Tableau"]
+tags: ["R Markdown"]
+subtitle: ''
+summary: ''
+authors: [Ling Huang]
+lastmod: '2021-05-17T20:36:05+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Armed conflicts consists in the use of armed force between two or more organized armed groups, governmental or non-governmental, by definition from International Committee of the Red Cross.</p>
+<p>In South East Asia context, the Armed Conflicts have been ongoing for a long time. In 1950s, internal conflicts took place in Myanmar. In 1960s, insurgency happened in South Thailand. You can find the full list on wikipedia. In this paper, we did visual analytics on the recent Armed Conflicts in South East Asia from 2015 to 2020 and explored some spatial-temporal patterns from it.</p>
+<div id="objective" class="section level1">
+<h1>1. Objective</h1>
+<p>Armed Conflict Location &amp; Event Data Project <a href="https://acleddata.com">(ACLED)</a> collected all the raw dataset about the Armed Conflicts globally. Prof. Kam made a spatial-temporal data visualization <a href="https://public.tableau.com/profile/tskam#!/vizhome/South-eastAsiaArmedConflictAnalysis/South-eastAsiaArmedConflictAnalysis">here</a>.</p>
+<p><img src="originalchart.png" /></p>
+<p>After checking the <a href="Southeast-Asia_2010-2020_Oct31.xlsx">raw dataset</a>, I think we can have a better way to visualize the data so the users would be able to interpret the Armed Conflicts situation in South East Asia easily.</p>
+<p>In this paper, firstly I criticized the original data visualization with some suggestions, then it followed up with implementation in Tableau tool. At the end of the paper, a few important insights were derived from my data visualization.</p>
+</div>
+<div id="critics-and-recommended-improvements" class="section level1">
+<h1>2. Critics and Recommended Improvements</h1>
+<p>In 2012, Ben Jones published an article about the key principles of Data Visualization. In short, we should visualize the data clearly and aesthetically. To support that, he created a <a href="https://dataremixed.com/2012/05/data-visualization-clarity-or-aesthetics/">Cartesian coordinate system</a> as shown below.
+<img src="principles.png" /></p>
+<p>According to coordinate system, I observed some clarity and aesthetic issues.
+<img src="critics.png" /></p>
+<div id="clarity-issues" class="section level3">
+<h3>Clarity Issues</h3>
+<table>
+<colgroup>
+<col width="2%" />
+<col width="48%" />
+<col width="49%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>S/N</th>
+<th>Clarity</th>
+<th>Recommendations and Advantages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>On the spatial map, 6 different event types are represented by 6 different colors in circle shape. All the circles are scattered across the map and they mix with each other. It looks a bit messy and makes the users difficult to identify each event type and compare one with another.</td>
+<td>We should abandon the circle shape. I suggest to use the Pie chart to illustrate the Event Types at the country level. It will allow the users to interpret the data easier.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>The line chart tries to show 6 different event types. But the sequence of the event types does not match the sequence in the legend. It is confusing the users. Besides, Fatalities data is found in the raw dataset but it is not plotted in the line chart.</td>
+<td>We need to re-plot the line chart for the Event Types and put all event types in one chart with different colors. Fatalities data is quite informational for the users to understand how severe the Armed Conflicts situation is, so we should plot the Fatalities data.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>The X-axis title “Event Date” is not correct because the line chart shows the data aggregated at the Year level rather than Day level. Besides, the Year 2020 data only includes the data from 2020/01/01 to 2020/10/31, but this point is not highlighted. In the meantime, the different Event Types have different scales of Y-axis and it causes misconceptions. For instance, Battles’ scale is ‘400~700’ whereas Riots’ scale is ‘5~20’.</td>
+<td>We should remove the X-axis title “Event Date”. Then, we need to highlight that the data for Year 2020 is cut off at Oct-31, 2020. We need to put all the types in one chart and then use different colors to differentiate them and also synchronize the scale for all types.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="aesthetic-issues" class="section level3">
+<h3>Aesthetic Issues</h3>
+<table>
+<colgroup>
+<col width="2%" />
+<col width="47%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>S/N</th>
+<th>Aesthetic</th>
+<th>Recommendations and Advantages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4</td>
+<td>The explanation of the numbers are displayed as well as the sheet name. The explanation has repeated 6 times and some of the wordings are cut off.</td>
+<td>We should remove the explanation of the numbers and the sheet name. Rather, we can add the meaning or explanation of the numbers into the title.</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>The year ‘2020’ in the X-axis and legend names are cut off. Perhaps the font size is a bit large.</td>
+<td>Change the font size so that the wordings will not be cut off.</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>The Spatial chart and line chart are displayed side by side horizontally, as a result of which the space looks too crowded.</td>
+<td>Maybe we can re-position the line chart from the right side to the bottom. It will make the entire visualization look tidy and neat.</td>
+</tr>
+</tbody>
+</table>
+<p>On top of the Clarity and Aesthetic issues, we can also find out some Interactivity issues.</p>
+</div>
+<div id="interactivity-issues" class="section level3">
+<h3>Interactivity Issues</h3>
+<table>
+<colgroup>
+<col width="2%" />
+<col width="47%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>S/N</th>
+<th>Interactivity</th>
+<th>Recommendations and Advantages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>7</td>
+<td>The dataset consists of multiple years data but the original data visualization missed out the filter ‘Year’. So, the users cannot interactively to filter the data by specific Year or Year-range.</td>
+<td>We should add the Year filter so the users will be able to clearly compare the changes year over year.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>The dataset comprises 6 event types but the original data visualization missed out the filter ‘Event Types’. So, the users cannot interactively to filter the data by event types.</td>
+<td>We should add the Event Type filter so the users can deep dive into each event type and analyze the pattern of each event type.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><span style="color:blue"><strong>To fix the issues above, we proposed a new design.</strong> </span></p>
+</blockquote>
+</div>
+</div>
+<div id="sketch-my-proposed-design" class="section level1">
+<h1>3. Sketch my proposed design</h1>
+<p>As explained above, we will plot both the Events and Fatalities data. We will choose line charts for them, and they will be positioned below the Map.</p>
+<p>Then, we will have three filters: Year, Event Type and COuntry.</p>
+<p>The sketch is shown as below.</p>
+<p><br>
+<img src="sketch.jpeg" /></p>
+</div>
+<div id="data-preparation" class="section level1">
+<h1>4. Data Preparation</h1>
+<p>The quality of the raw dataset looks good enough for us to start the data visualization. So, we do not need to massage it. Below table is the metadata for the raw dataset.</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column Name</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ISO</td>
+<td>A numeric code for each individual country</td>
+</tr>
+<tr class="even">
+<td>EVENT_ID_CNTY</td>
+<td>An individual identifier by number and country acronym (updated annually)</td>
+</tr>
+<tr class="odd">
+<td>EVENT_ID_NO_CNTY</td>
+<td>An individual numeric identifier (updated annually)</td>
+</tr>
+<tr class="even">
+<td>EVENT_DATE</td>
+<td>The day, month and year on which an event took place</td>
+</tr>
+<tr class="odd">
+<td>YEAR</td>
+<td>The year in which an event took place</td>
+</tr>
+<tr class="even">
+<td>TIME_PRECISION</td>
+<td>A numeric code indicating the level of certainty of the date coded for the event</td>
+</tr>
+<tr class="odd">
+<td>EVENT_TYPE</td>
+<td>The type of event</td>
+</tr>
+<tr class="even">
+<td>SUB_EVENT_TYPE</td>
+<td>The type of sub-event</td>
+</tr>
+<tr class="odd">
+<td>ACTOR1</td>
+<td>The named actor involved in the event</td>
+</tr>
+<tr class="even">
+<td>ASSOC_ACTOR_1</td>
+<td>The named actor associated with or identifying ACTOR1</td>
+</tr>
+<tr class="odd">
+<td>INTER1</td>
+<td>A numeric code indicating the type of ACTOR1</td>
+</tr>
+<tr class="even">
+<td>ACTOR2</td>
+<td>The named actor involved in the event</td>
+</tr>
+<tr class="odd">
+<td>ASSOC_ACTOR_2</td>
+<td>The named actor associated with or identifying ACTOR2</td>
+</tr>
+<tr class="even">
+<td>INTER2</td>
+<td>A numeric code indicating the type of ACTOR2</td>
+</tr>
+<tr class="odd">
+<td>INTERACTION</td>
+<td>A numeric code indicating the interaction between types of ACTOR1 and ACTOR2</td>
+</tr>
+<tr class="even">
+<td>REGION</td>
+<td>The region of the world where the event took place</td>
+</tr>
+<tr class="odd">
+<td>COUNTRY</td>
+<td>The country in which the event took place</td>
+</tr>
+<tr class="even">
+<td>ADMIN1</td>
+<td>The largest sub-national administrative region in which the event took place</td>
+</tr>
+<tr class="odd">
+<td>ADMIN2</td>
+<td>The second largest sub-national administrative region in which the event took place</td>
+</tr>
+<tr class="even">
+<td>ADMIN3</td>
+<td>The third largest sub-national administrative region in which the event took place</td>
+</tr>
+<tr class="odd">
+<td>LOCATION</td>
+<td>The location in which the event took place</td>
+</tr>
+<tr class="even">
+<td>LATITUDE</td>
+<td>The latitude of the location</td>
+</tr>
+<tr class="odd">
+<td>LONGITUDE</td>
+<td>The longitude of the location</td>
+</tr>
+<tr class="even">
+<td>GEO_PRECISION</td>
+<td>A numeric code indicating the level of certainty of the location coded for the event</td>
+</tr>
+<tr class="odd">
+<td>SOURCE</td>
+<td>The source of the event report</td>
+</tr>
+<tr class="even">
+<td>SOURCE SCALE</td>
+<td>The scale (local, regional, national, international) of the source</td>
+</tr>
+<tr class="odd">
+<td>NOTES</td>
+<td>A short description of the event</td>
+</tr>
+<tr class="even">
+<td>FATALITIES</td>
+<td>The number of reported fatalities which occurred during the event</td>
+</tr>
+</tbody>
+</table>
+<p>However, I would like to point out a few things to take note. Our objective is to evaluate the events data and fatalities data at the country level such as Malaysia, Thailand and Indonesia etc. Therefore, many unnecessary columns in the raw dataset will be ignored.</p>
+<ol style="list-style-type: decimal">
+<li><p>The <strong>ADMIN1</strong>, <strong>ADMIN2</strong> and <strong>ADMIN3</strong> etc. columns are lower level administrative regions. We do not need them in this visualization.</p></li>
+<li><p>The <strong>Sub-Event Types</strong> are sub-level of <strong>Event Types</strong>. Since there are too many sub Event Types, let us just focus on the Event types.</p></li>
+<li><p>The <strong>Latitude</strong> and <strong>Longitude</strong> are for the specific region/city rather than the country itself. We cannot use it as our intention is to plot at country level.</p></li>
+<li><p>The <strong>Event Date</strong> column will not be used since we already have the <strong>Year</strong> column. In this visualization, we are only concerned at Year level.</p></li>
+</ol>
+</div>
+<div id="step-by-step-implementation-in-tableau" class="section level1">
+<h1>5. Step by step implementation in Tableau</h1>
+<ol style="list-style-type: decimal">
+<li><p>Load the Southeast-Asia_2010-2020_Oct31.xlsx file into Tableau.
+<img src="snapshots/Figure1-Load.png" /></p></li>
+<li><p>For these unwanted columns, right click its drop-down arrow and then and click <em>‘Hide’</em> button to hide it. <br>
+<img src="snapshots/Figure2-Hide.png" /></p></li>
+</ol>
+<p>After hide all those unwanted columns, the cleaned data would like as below. <br></p>
+<p><img src="snapshots/Figure3-Hide.png" /></p>
+<div id="create-a-worksheet-to-show-the-choropleth-map-with-fatalities-and-events-data" class="section level3">
+<h3>Create a worksheet to show the Choropleth map with Fatalities and Events data</h3>
+<ul>
+<li><ol start="3" style="list-style-type: decimal">
+<li>Create the first worksheet: name it <em>Map</em>. Then, drag the ‘Country’ to Rows and the ‘Fatalities’ to Columns. <br>
+<img src="snapshots/Figure4-Mapdraw.png" /></li>
+</ol></li>
+<li><ol start="4" style="list-style-type: decimal">
+<li>Then, click the <em>Show Me</em> on the top right corner and then choose the Worldmap format. The Latitude and Longitude for the Country would be automatically generated. As shown in below. <br></li>
+</ol></li>
+</ul>
+<p><img src="snapshots/Figure5-Mapdraw.png" /></p>
+<ul>
+<li><ol start="5" style="list-style-type: decimal">
+<li>To change the Sum(Fatalities)’s color. Click the Edit Colors option from the drop-down arrow.
+<br>
+<img src="snapshots/Figure6-Fatalitiescolor.png" /> <br></li>
+</ol></li>
+<li><ol start="6" style="list-style-type: decimal">
+<li>Set the Data range Start at 0 and End at 13,000. <br>
+<br>
+<img src="snapshots/Figure7-Fatalitiesrange.png" /></li>
+</ol></li>
+<li><ol start="7" style="list-style-type: decimal">
+<li>Go to the Tables pane. Right click ‘Country’ field and click ‘Add to New Layer’.
+<br>
+<img src="snapshots/Figure8-Map2.png" /></li>
+</ol></li>
+<li><ol start="8" style="list-style-type: decimal">
+<li>Now we have two layers Marks. On the Country(2) mark, drag the ‘Event Type’ from Table pane to Color option.
+<br>
+<img src="snapshots/Figure9-Map2color.png" /></li>
+</ol></li>
+<li><ol start="9" style="list-style-type: decimal">
+<li>Also, drag the ‘Event Type’ to the Size option.
+<br>
+<img src="snapshots/Figure10-Map2size.png" /></li>
+</ol></li>
+<li><ol start="10" style="list-style-type: decimal">
+<li>Right click the Event Type size option, select the Count under the Measure as the size.
+<br>
+<img src="snapshots/Figure11-Map2size.png" /></li>
+</ol></li>
+<li><ol start="11" style="list-style-type: decimal">
+<li>Select the Pie shape from drop-down menu.
+<br>
+<img src="snapshots/Figure12-Map2.png" /></li>
+</ol></li>
+<li><ol start="12" style="list-style-type: decimal">
+<li>Let’s increase the size a bit.
+<br>
+<img src="snapshots/Figure13-Map2.png" /></li>
+</ol></li>
+<li><ol start="13" style="list-style-type: decimal">
+<li>To add the filters, drag the Country, Event Type and Year from Tables pane to Filters pane.
+<br>
+<img src="snapshots/Figure14-Map2filters.png" /></li>
+</ol></li>
+<li><ol start="14" style="list-style-type: decimal">
+<li>Since we focus on Year 2015 to 2020, let’s set the range of Year filter from 2015 to 2020 by right clicking the Year filter drop-down arrow and then clicking Edit Filter.
+<br>
+<img src="snapshots/Figure15-Map2year.png" /></li>
+</ol></li>
+<li><ol start="15" style="list-style-type: decimal">
+<li>Right click the Year filter drop-down arrow and then select Show Filter.
+<br>
+<img src="snapshots/Figure16-Map2year.png" /></li>
+</ol></li>
+<li><ol start="16" style="list-style-type: decimal">
+<li>Under the Year filter card, rigth click the drop-down arrow and then click ‘Edit Title’.
+<br>
+<img src="snapshots/Figure17-Map2year.png" /></li>
+</ol></li>
+<li><ol start="17" style="list-style-type: decimal">
+<li>Change the title to ‘Select the Year for Map’.
+<br>
+<img src="snapshots/Figure18-Map2year.png" /></li>
+</ol></li>
+</ul>
+<p>So, the final Map worksheet looks like as below.
+<br>
+<img src="snapshots/WorksheetMap.png" /></p>
+</div>
+<div id="create-a-worksheet-to-show-events-data" class="section level3">
+<h3>Create a worksheet to show Events data</h3>
+<ul>
+<li><ol start="18" style="list-style-type: decimal">
+<li>Create a new worksheet and name it ‘Events’. Drag the Event Type to Rows field and the Year to Columns field.
+<br>
+<img src="snapshots/Figure19-Events.png" /></li>
+</ol></li>
+<li><ol start="19" style="list-style-type: decimal">
+<li>Under the Rows field, right click the drop-down arrow of Event Type and then select the Count from Measure menu.
+<br>
+<img src="snapshots/Figure20-Events.png" /></li>
+</ol></li>
+<li><ol start="20" style="list-style-type: decimal">
+<li>Drag the Country from Tables pane to the Color option in Marks pane.
+<br>
+<img src="snapshots/Figure21-Events.png" /></li>
+</ol></li>
+<li><ol start="21" style="list-style-type: decimal">
+<li>To add the filters, add Country, Event Type and Year from Tables pane to Filters pane.
+<br>
+<img src="snapshots/Figure22-Events.png" /></li>
+</ol></li>
+<li><ol start="22" style="list-style-type: decimal">
+<li>Right click the drop-down arrow of Country filter and select Show Filter.
+<br>
+<img src="snapshots/Figure23-Events.png" /></li>
+</ol></li>
+<li><ol start="23" style="list-style-type: decimal">
+<li>Right click the drop-down arrow of Event Type filter and select Show Filter.
+<br>
+<img src="snapshots/Figure24-Events.png" /></li>
+</ol></li>
+<li><ol start="24" style="list-style-type: decimal">
+<li>For the Event Type filter card, select the ‘All Using This Data Source’ from the ‘Apply to Worksheets’ menu.
+<br>
+<img src="snapshots/Figure25-Events.png" /></li>
+</ol></li>
+<li><ol start="25" style="list-style-type: decimal">
+<li>For the Country filter card, select the ‘All Using This Data Source’ from the ‘Apply to Worksheets’ menu.
+<br>
+<img src="snapshots/Figure26-Events.png" /></li>
+</ol></li>
+<li><ol start="26" style="list-style-type: decimal">
+<li>Right click the drop-down arrow of CNT(Event Type) card and select ‘Hide Card’.
+<br>
+<img src="snapshots/HideCard.png" /></li>
+</ol></li>
+<li><ol start="27" style="list-style-type: decimal">
+<li>Right click the Y-axis and click ‘Edit Axis’. Then, change the Axis Title to ‘Count of Events’.
+<br>
+<img src="snapshots/Figure27-Events.png" /></li>
+</ol></li>
+<li><ol start="28" style="list-style-type: decimal">
+<li>Right click the X-axis and click ‘Edit Axis’. Then change the range of the Year: Fixed Start = 2015 and Fixed End = 2020.
+<br>
+<img src="snapshots/Figure28-Events.png" /></li>
+</ol></li>
+<li><ol start="29" style="list-style-type: decimal">
+<li>Double click the worksheet title to Edit Title. Configure the title as below.
+<br>
+<img src="snapshots/Figure29-Events.png" /></li>
+</ol></li>
+</ul>
+<p>The final Events worksheet looks as below.
+<br>
+<img src="snapshots/WorksheetEvents.png" />
+### Create the worksheet to show Fatalities data</p>
+<ul>
+<li><ol start="30" style="list-style-type: decimal">
+<li>Create a new worksheet and name it ‘Fatalities’. Drag the Fatalities to Rows field and the Year to Columns field. Tableau automatically use the SUM measure for Fatalities.
+<br>
+<img src="snapshots/Figure30-Fatalities.png" /></li>
+</ol></li>
+<li><ol start="31" style="list-style-type: decimal">
+<li>Drag the Country from Tables pane to the Color option in Marks pane.
+<br>
+<img src="snapshots/Figure31-Fatalities.png" /></li>
+</ol></li>
+<li><ol start="32" style="list-style-type: decimal">
+<li>Right click the Y-axis and click ‘Edit Axis’. Then, change the Axis Title to ‘Count of Fatalities’.
+<br>
+<img src="snapshots/Figure32-Fatalities.png" /></li>
+</ol></li>
+<li><ol start="33" style="list-style-type: decimal">
+<li>Right click the X-axis and click ‘Edit Axis’. Then change the range of the Year: Fixed Start = 2015 and Fixed End = 2020.
+<br>
+<img src="snapshots/Figure33-Fatalities.png" /></li>
+</ol></li>
+<li><ol start="34" style="list-style-type: decimal">
+<li>Double click the worksheet title to Edit Title. Configure the title as below.
+<br>
+<img src="snapshots/Figure34-Fatalities.png" /></li>
+</ol></li>
+</ul>
+<p>The final Fatalities worksheet looks as below.
+<br>
+<img src="snapshots/WorksheetFatalities.png" /></p>
+</div>
+<div id="create-final-dashboard" class="section level3">
+<h3>Create final dashboard</h3>
+<ul>
+<li><ol start="35" style="list-style-type: decimal">
+<li>We just created three worksheets: Map, Events and Fatalities. Now, let’s start to create a dashboard. Name the dashboard to ‘Armed Conflicts’. By using the Horizontal and Vertical objects, we can drag the three worksheets to the dashboard as shown below. Then, customize the dashboard size 1400x900. Tick the ‘Show dashboard title’.
+<br>
+<img src="snapshots/Figure35Dashboard.png" /></li>
+</ol></li>
+<li><ol start="36" style="list-style-type: decimal">
+<li>Let’s spice up the dashboard a little bit. Double click the Map title and edit the title as below.
+<br>
+<img src="snapshots/Figure36Dashboard.png" /></li>
+</ol></li>
+<li><ol start="37" style="list-style-type: decimal">
+<li>Double click the dashboard title and edit title as below.
+<br>
+<img src="snapshots/Figure37Dashboard.png" /></li>
+</ol></li>
+<li><ol start="38" style="list-style-type: decimal">
+<li>Drag a Text object to the bottom of the dashboard.
+<br>
+<img src="snapshots/Figure38Dashboard.png" /></li>
+</ol></li>
+<li><ol start="39" style="list-style-type: decimal">
+<li>Double click the Text object and edit the text as below.
+<br>
+<img src="snapshots/Figure39Dashboard.png" /></li>
+</ol></li>
+</ul>
+</div>
+</div>
+<div id="final-data-visualization-in-tableau" class="section level1">
+<h1>6. Final Data Visualization in Tableau</h1>
+<p>Here is the final interactive data visualization in Tableau. You can visit my <a href="https://public.tableau.com/profile/hngling#!/vizhome/ArmedConflicts_16163190682600/ArmedConficts">Tableau Public Profile</a> to play around.</p>
+<p><br>
+<img src="snapshots/Dashboard.png" /></p>
+</div>
+<div id="major-observations-from-my-data-viz" class="section level1">
+<h1>7. Major Observations from my Data Viz</h1>
+<div id="observation-1" class="section level4">
+<h4>Observation 1</h4>
+<ul>
+<li>By comparing the size of the Pie, it is obvious that <strong>Philippines</strong> has the most events than other countries in the period 2015 to 2020. Following are <strong>Myanmar</strong> and then <strong>Indonesia</strong>. However, the majority of the events in <strong>Philippines</strong> is the Even Type <strong>Violence against civilians</strong>(<em>Yellow color</em>) whereas in <strong>Myanmar</strong> it is <strong>Battles</strong>(<em>Blue color</em>) and in <strong>Indonesia</strong> it is <strong>Protests</strong>(<em>Red color</em>).
+<br>
+<img src="snapshots/obs0.png" />
+BTW. Narrow down the Year range to 1 year, and slide the filter from left to right to observe the changes Year over Year. We will find the same pattern!!!
+<br>
+<img src="snapshots/obs01.png" /></li>
+</ul>
+</div>
+<div id="observation-2" class="section level4">
+<h4>Observation 2</h4>
+<ul>
+<li><strong>Philippines</strong> has the most fatalities which is 12,905, followed by <strong>Myanmar</strong>. It makes sense given that <strong>Philippines</strong> has the highest count of event occurrences and <strong>Myanmar</strong> has the second highest.
+<br>
+<img src="snapshots/obs1.png" /></li>
+</ul>
+</div>
+<div id="observation-3" class="section level4">
+<h4>Observation 3</h4>
+<ul>
+<li>In general, <strong>Violence against civilians</strong> causes the more fatalities than other events. As a result of it, the dead cases suddenly increased dramatically from ~250 in year 2015 to ~3500 in year 2016. Then, it dropped gradually to ~1000 cases in 2020.
+<br>
+<img src="snapshots/obs4.png" /></li>
+</ul>
+</div>
+<div id="observation-4" class="section level4">
+<h4>Observation 4</h4>
+<ul>
+<li>In total, <strong>Violence against civilians</strong> event occurs the most from 2015 to 2020. The occurrence frequency peaked at ~2500 and then decreased more than 50% to ~1000 in 2020.
+<br>
+<img src="snapshots/obs5.png" /></li>
+</ul>
+</div>
+<div id="observation-5" class="section level4">
+<h4>Observation 5</h4>
+<ul>
+<li>The frequency of <strong>Protests</strong> event stayed flat at ~1000 from 2015 to 2017. In 2017, it started to take off and grew tremendously to over ~2000 in the year 2020.
+<br>
+<img src="snapshots/obs6.png" /></li>
+</ul>
+</div>
+</div>
