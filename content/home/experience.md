@@ -35,11 +35,13 @@ experience:
     description: |2-
         Responsibilities include:
         
+        * Business Processes Automation
+        * Business Processes Re-engineering
+        * User Study and Research
+        * Product Design Prototyping
         * Product Management
-        * Prototyping
-        * Analysing Data
-        * Modelling Data
-        * Deploying
+        * Data Analytics
+        * Business Stakeholder Management
         
   - title: Consultant
     company: LogicBay Corp
@@ -48,7 +50,17 @@ experience:
     location: Singapore
     date_start: '2011-12-01'
     date_end: '2018-10-31'
-    description: Support Caterpillar Inc. in Asia Pacific and Caterpillar Dealerships in Asia Pacific
+    description: |2-
+        Responsibilities include:
+        
+        * Manage the SAAS learning ecosystem
+        * Support the customers: Caterpillar Inc. and its 20+ dealerships in Asia Pacific
+        * Organize the yearly workshops
+        * Organize the monthly training webinar
+        * Capture new requirements
+        * Produce training courses and materials
+        * Produce the product documents
+        
   
   - title: Engineer & Service Manager
     company: Huawei International Pte Ltd
@@ -57,7 +69,10 @@ experience:
     location: Singapore
     date_start: '2009-12-01'
     date_end: '2011-11-30'
-    description: Support the pre-sales technical testing. Manage the exclusive Huawei service centre in Singapore back then.  
+    description: |2-
+        Major Responsibilities include:
+      - Support the pre-sales technical testing. 
+      - Manage the exclusive Huawei service centre in Singapore back then.  
 
 design:
   columns: '2'

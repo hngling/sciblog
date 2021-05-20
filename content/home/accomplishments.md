@@ -28,12 +28,20 @@ date_format: Jan 2006
 item:
 - certificate_url: https://www.coursera.org
   date_end: ""
-  date_start: "2021-01-25"
+  date_start: "2020-11-25"
   description: ""
   organization: Coursera
   organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
-  url: ""
+  title: 'Digital Product Management: Modern Fundamentals'
+  url: "https://coursera.org/share/f56e31aba0bca52a4bb7945dd04d029c"
+- certificate_url: https://www.coursera.org
+  date_end: ""
+  date_start: "2020-10-25"
+  description: ""
+  organization: Coursera
+  organization_url: https://www.coursera.org
+  title: Introduction to Big Data
+  url: "https://www.coursera.org/account/accomplishments/certificate/WV3K9P6YE43K"
 - certificate_url: https://www.edx.org
   date_end: ""
   date_start: "2021-01-01"

@@ -28,9 +28,9 @@ feature:
   icon_pack: fab
   name: Python
 - description: 80%
-  icon: table
-  icon_pack: fas
-  name: Tableau
+  icon: "Tableau"
+  icon_pack: "emoji"
+  name: Tablaeu
 - description: 100%
   icon: chart-line
   icon_pack: fas
@@ -43,14 +43,18 @@ feature:
   icon: landmark
   icon_pack: fas
   name: Digital Banking
-- description: 180%
+- description: 200%
   icon: ":smile:"
   icon_pack: "emoji"
   name: Humor
-- description: 80%
-  icon: "Tableau"
+- description: 200%
+  icon: ":smile:"
   icon_pack: "emoji"
-  name: Tablaeu
+  name: Humor
+- description: 200%
+  icon: ":smile:"
+  icon_pack: "emoji"
+  name: Humor
 
 # Uncomment to use emoji icons.
 # - icon = ":smile:"

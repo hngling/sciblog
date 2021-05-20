@@ -4,7 +4,7 @@ education:
   courses:
   - course: Master of IT in Business
     institution: Singapore Management University
-    year: 2012
+    year: 2021
   - course: M.Sc in Electrical Engineering
     institution: National University of Singapore
     year: 2009
@@ -24,7 +24,7 @@ interests:
 organizations:
 - name: Singapore Management University
   url: https://www.smu.edu.sg/
-role: Part-time Student from FinTech and Analytics Track
+role: Part-time Student from FinTech and Analytics
 social:
 - icon: envelope
   icon_pack: fas
@@ -48,8 +48,11 @@ superuser: true
 title: Ling Huang
 ---
 
-Ling Huang is a Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Hey, I am a professional Product Manager in [Lazada Group](https://group.lazada.com). I am responsible for the Enterprise Technology products in Lazada. On my job, I work very closely with Engineering team, UI/UX team and Business stakeholders. I strive to better serve my internal customers by launching awesome products from scratch and/or optimizing existing products through iterative improvement processes.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+In the meantime, I am also a part-time Masters student in School of Computing and Information Systems in [Singapore Management University](https://www.smu.edu.sg). My program is [Master of IT in Business](https://scis.smu.edu.sg/master-it-business) and I am focusing on FinTech and Data Analytics field. This program equips me with digital transformation mindset and data capabilities which can be applied to my workplace.
+
+In my spare time, I enjoy reading technology articles, building Data Visualizations and learning new technologies. Oh BTW, I also enjoy sleeping and eating!
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/linghuang_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
