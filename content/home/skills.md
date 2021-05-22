@@ -19,7 +19,7 @@ subtitle: technical skills obtained through academic training and on-the-job lea
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: 80%
   icon: r-project
   icon_pack: fab
   name: R
@@ -27,15 +27,19 @@ feature:
   icon: python
   icon_pack: fab
   name: Python
-- description: 80%
+- description: 70%
   icon: "Tableau"
   icon_pack: "emoji"
   name: Tablaeu
+- description: 50%
+  icon: "SAS"
+  icon_pack: "emoji"
+  name: SAS
 - description: 100%
   icon: chart-line
   icon_pack: fas
   name: Applied Statistics
-- description: 10%
+- description: 20%
   icon: laptop-code
   icon_pack: fas
   name: Machine Learning
@@ -44,17 +48,14 @@ feature:
   icon_pack: fas
   name: Digital Banking
 - description: 200%
-  icon: ":smile:"
+  icon: ":nerd_face:"
   icon_pack: "emoji"
-  name: Humor
+  name: Curiosity
 - description: 200%
-  icon: ":smile:"
+  icon: ":orange_heart:"
   icon_pack: "emoji"
-  name: Humor
-- description: 200%
-  icon: ":smile:"
-  icon_pack: "emoji"
-  name: Humor
+  name: Optimism
+
 
 # Uncomment to use emoji icons.
 # - icon = ":smile:"

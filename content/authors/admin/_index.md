@@ -11,7 +11,7 @@ education:
   - course: B.Eng in Electronic Engineering
     institution: BUPT
     year: 2007
-email: "ling.huang.2019@mitb.smu.edu.sg"
+email: "ling.huang.2019@smu.edu.sg"
 highlight_name: true
 interests:
 - Data Analytics
@@ -28,7 +28,7 @@ role: Part-time Student from FinTech and Analytics
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:ling.huang.2019@mitb.smu.edu.sg'
+  link: 'mailto:ling.huang.2019@smu.edu.sg'
 - display:
     header: true
   icon: twitter

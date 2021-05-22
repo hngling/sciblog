@@ -20,7 +20,7 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: ling.huang.2019@mitb.smu.edu.sg
+email: ling.huang.2019@smu.edu.sg
 address:
   street: 80 Stamford Road
   city: Singapore
@@ -37,10 +37,7 @@ contact_links:
     icon_pack: fab
     name: Twitter Me
     link: 'https://twitter.com/hngling2'
-  - icon: comments
-    icon_pack: fas
-    name: Email Me
-    link: ''
+
 
 # Site header
 

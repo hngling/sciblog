@@ -26,7 +26,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
+- certificate_url: "https://coursera.org/share/f56e31aba0bca52a4bb7945dd04d029c"
   date_end: ""
   date_start: "2020-11-25"
   description: ""
@@ -35,7 +35,7 @@ item:
   title: 'Digital Product Management: Modern Fundamentals'
   url: "https://coursera.org/share/f56e31aba0bca52a4bb7945dd04d029c"
   
-- certificate_url: https://www.coursera.org
+- certificate_url: "https://www.coursera.org/account/accomplishments/certificate/WV3K9P6YE43K"
   date_end: ""
   date_start: "2020-10-25"
   description: ""
@@ -44,7 +44,7 @@ item:
   title: Introduction to Big Data
   url: "https://www.coursera.org/account/accomplishments/certificate/WV3K9P6YE43K"
   
-- certificate_url: https://www.datacamp.com
+- certificate_url: "https://www.datacamp.com/statement-of-accomplishment/course/4e0aa2f9fc438efd5c081611d97dc0b28a71e3cc"
   date_end: ""
   date_start: "2021-03-01"
   description: ""
@@ -53,7 +53,7 @@ item:
   title: 'Machine Learning for Everyone'
   url: "https://www.datacamp.com/statement-of-accomplishment/course/4e0aa2f9fc438efd5c081611d97dc0b28a71e3cc"
   
-- certificate_url: https://www.datacamp.com
+- certificate_url: "https://www.datacamp.com/statement-of-accomplishment/course/9c0b5503ad0ecd6e9c0fc85bca56e3807452b73c?raw=1"
   date_end: ""
   date_start: "2021-03-01"
   description: ""
@@ -62,7 +62,7 @@ item:
   title: 'Interactive Data Visualization with plotly in R'
   url: "https://www.datacamp.com/statement-of-accomplishment/course/9c0b5503ad0ecd6e9c0fc85bca56e3807452b73c?raw=1"
   
-- certificate_url: https://www.datacamp.com
+- certificate_url: "https://www.datacamp.com/statement-of-accomplishment/course/555845b640aa123c336b6eb63b1807c78b9f91f4"
   date_end: ""
   date_start: "2021-03-01"
   description: ""
