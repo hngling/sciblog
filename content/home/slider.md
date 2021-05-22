@@ -37,17 +37,17 @@ item:
     #cta_url: 'https://example.org'
     #cta_icon_pack: fas
     #cta_icon: graduation-cap
-  - title: Title
-    content: 'Test title'
+  - title: Travel Lover (Hodophile)
+    content: 'Life is short but the world is wide!'
     align: center
     overlay_color: ''
-    overlay_img: 'palm.jpg'
+    overlay_img: 'confu.jpg'
     overlay_filter: 0
-  - title: Title
-    content: 'test title'
+  - title: Nature Lover
+    content: 'Colors are the smiles of nature!'
     align: center
     overlay_color: ''
-    overlay_img: 'org.jpg'
+    overlay_img: 'beach.jpg'
     overlay_filter: 1
     
 ---
