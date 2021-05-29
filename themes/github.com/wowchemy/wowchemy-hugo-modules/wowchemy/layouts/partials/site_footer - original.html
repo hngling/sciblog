@@ -32,15 +32,19 @@
   {{ partial "site_footer_license" . }}
 
   <p class="powered-by">
-    © Ling Huang, 2021 &middot; Made with <i class="far fa-heart"></i>&ensp;, the&ensp;
-    <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a>
-      <a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-    <span class="float-right" aria-hidden="true">
-      <a href="#" class="back-to-top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
+    {{ $is_sponsor := site.Params.i_am_a_sponsor | default false }}
+    {{ $hide_published_with_footer := site.Params.power_ups.hide_published_with | default true }}
+    {{ if not (and $is_sponsor $hide_published_with_footer) }}
+      {{ $default := "Published with {wowchemy} — the free, {repo_link}open source{/repo_link} website builder that empowers creators." }}
+      {{ $i18n_published_with := i18n "published_with" | default $default }}
+      {{ if not (findRE "{wowchemy}" $i18n_published_with) }}
+        {{ warnf "Please attribute Wowchemy using `{wowchemy}` in the `published_with` text." }}
+        {{ $i18n_published_with = $default }}
+      {{ end }}
+      {{ $i18n_published_with = replace $i18n_published_with "{wowchemy}" "<a href=\"https://wowchemy.com/?utm_campaign=poweredby\" target=\"_blank\" rel=\"noopener\">Wowchemy</a>" | safeHTML }}
+      {{ $i18n_published_with = replace $i18n_published_with "{repo_link}" "<a href=\"https://github.com/wowchemy/wowchemy-hugo-modules\" target=\"_blank\" rel=\"noopener\">" | safeHTML }}
+      {{ $i18n_published_with = replace $i18n_published_with "{/repo_link}" "</a>" | safeHTML }}
+      {{ $i18n_published_with | markdownify | emojify }}
+    {{ end }}
   </p>
 </footer>
