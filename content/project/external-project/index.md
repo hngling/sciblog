@@ -9,9 +9,9 @@ links:
 - icon: pagelines
   icon_pack: fab
   name: Go to Project website
-  url: https://isss608stock.netlify.app
+  url: https://vaproject.netlify.app/
 tags:
 - Tableau
 - R
-title: Term Project from SMU moduel "Visual Analytics""
+title: Term Project from SMU module "Visual Analytics""
 ---
