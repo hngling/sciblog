@@ -12,8 +12,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 1
 
-title: My Projects
-subtitle: 'Display my school projects and side projects'
+title: Data Visualization
+subtitle: 'Showcase some of my DataViz from school projects or side projects'
 
 content:
   # Page type to display. E.g. project.
@@ -30,19 +30,13 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: America
-    tag: America
-  - name: Australia & New Zealand
-    tag: ANZ
-  - name: China
-    tag: China
-  - name: Europe
-    tag: Europe
-  - name: Japan
-    tag: Japan
-  - name: South East Asia
-    tag: SEA
-
+  - name: Tableau
+    tag: Tableau
+  - name: R
+    tag: R
+  - name: Python
+    tag: Python
+    
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '2'
@@ -52,7 +46,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 5
+  view: 4
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: true

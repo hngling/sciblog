@@ -1,17 +1,17 @@
 ---
-date: "2016-04-27T00:00:00Z"
+date: "2021-04-20T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Photo from https://blog.eduonix.com/software-development/python-popular-among-programmers/
   focal_point: Smart
-summary: Use Time Series Analysis methodologies to predict US Stock's prices.
+summary: Leverage Time Series analytical methodologies to predict stock prices
 links:
-- icon: intercom
+- icon: pagelines
   icon_pack: fab
   name: Go to Project website
   url: https://isss608stock.netlify.app
 tags:
-- SEA
-- Japan
-title: School Project from SMU Visual Analytics
+- Tableau
+- R
+title: Term Project from SMU moduel "Visual Analytics""
 ---

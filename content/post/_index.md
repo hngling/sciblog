@@ -3,7 +3,7 @@ cms_exclude: true
 header:
   caption: ""
   image: ""
-title: My Posts
-subtitle: Publish my school assignments and side projects here
-view: 2
+title: Post Technology News and Articles
+subtitle: Publish my readings here 
+view: 3
 ---

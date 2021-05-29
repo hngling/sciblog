@@ -2,19 +2,19 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo by anonymous online
   focal_point: Smart
 links:
-- icon: weixin
-  icon_pack: fab
+- icon: link
+  icon_pack: fas
   name: Get the Link
-  url: https://twitter.com/georgecushen
+  url: https://www.linghuang.cc
 slides: example
 summary: Data Visualization projects for fun
 tags:
-- ANZ
-- China
-- SEA
+- Python
+- Tableau
+
 title: Side Project from my spare time!
 url_code: ""
 url_pdf: ""

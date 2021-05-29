@@ -33,20 +33,20 @@ content:
   - name: America
     tag: America
   - name: Australia & New Zealand
-    tag: Anz
+    tag: ANZ
   - name: China
     tag: China
   - name: Europe
     tag: Europe
   - name: Japan
     tag: Japan
-  - name: SE Asia
-    tag: Sea
+  - name: South East Asia
+    tag: SEA
   - name: Singapore
-    tag: Sg
+    tag: Singapore
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
+  columns: '1'
 
   # Toggle between the various page layout types.
   #   1 = List
