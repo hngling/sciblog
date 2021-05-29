@@ -5,8 +5,8 @@ theme: "starter-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: LING HUANG # Website name
-baseurl: 'https://lingsciblog.netlify.app/' # Website URL
-copyright: '© {2021} Ling Huang' # Footer text, e.g. '© {year} Me'
+baseurl: 'https://www.linghuang.cc/' # Website URL
+copyright: '© 2021 Ling Huang' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

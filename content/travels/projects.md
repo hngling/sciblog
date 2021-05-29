@@ -4,7 +4,7 @@
 widget: portfolio
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
@@ -12,12 +12,12 @@ headless: true
 # Order that this section appears on the page.
 weight: 1
 
-title: My Projects
-subtitle: 'Display my school projects and side projects'
+title: My Photos
+subtitle: 'Display amazing photos from my traveling'
 
 content:
   # Page type to display. E.g. project.
-  page_type: project
+  page_type: tour
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -33,16 +33,17 @@ content:
   - name: America
     tag: America
   - name: Australia & New Zealand
-    tag: ANZ
+    tag: Anz
   - name: China
     tag: China
   - name: Europe
     tag: Europe
   - name: Japan
     tag: Japan
-  - name: South East Asia
-    tag: SEA
-
+  - name: SE Asia
+    tag: Sea
+  - name: Singapore
+    tag: Sg
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '2'

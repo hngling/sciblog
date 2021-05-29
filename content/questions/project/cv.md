@@ -25,7 +25,7 @@ content:
     author: ""
     category: ""
     publication_type: ""
-    tag: ""
+    tag: "America"
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
@@ -35,5 +35,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 3
 ---

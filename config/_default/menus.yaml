@@ -10,8 +10,8 @@ main:
   - name: Accomplishments
     url: accomplishments/
     weight: 20
-  # - name: Projects
-  #   url: project/
+  # - name: Questions
+  #   url: questions/test/
   #   weight: 30
   - name: Posts
     url: post/
@@ -20,7 +20,7 @@ main:
   #   url: '#gallery'
   #   weight: 50
   - name: Traveling
-    url: travels/
+    url: travels
     weight: 60
   - name: Contact
     url: '#contact'
