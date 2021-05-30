@@ -38,9 +38,9 @@ social:
 - icon: graduation-cap
   icon_pack: fas
   link: https://www.smu.edu.sg
-- icon: github
-  icon_pack: fab
-  link: https://github.com/hngling
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/hngling
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ling-h-600226171/
