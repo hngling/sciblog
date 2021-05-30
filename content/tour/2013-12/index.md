@@ -7,7 +7,7 @@ image:
 links:
 - icon: staylinked
   icon_pack: fab
-  name: Go to Visit Singapore official website
+  name: Go to Visit Singapore
   url: https://www.visitsingapore.com/see-do-singapore/nature-wildlife/parks-gardens/singapore-botanic-gardens/
 slides: example
 summary: For Fun
