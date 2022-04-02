@@ -4,12 +4,12 @@ education:
   courses:
   - course: Master of IT in Business
     institution: Singapore Management University
-    year: 2021
+    year: 2022
   - course: M.Sc in Electrical Engineering
     institution: National University of Singapore
     year: 2009
   - course: B.Eng in Electronic Engineering
-    institution: BUPT
+    institution: A university in Beijing, China
     year: 2007
 email: "ling.huang.2019@smu.edu.sg"
 highlight_name: true
@@ -34,7 +34,7 @@ social:
   icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/hngling2
+  link: https://twitter.com/
 - icon: graduation-cap
   icon_pack: fas
   link: https://www.smu.edu.sg
@@ -55,4 +55,4 @@ In the meantime, I am also a part-time Masters student in School of Computing an
 In my spare time, I enjoy reading technology articles, building Data Visualizations and learning new technologies. Oh BTW, I also enjoy sleeping and eating!
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/linghuang_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/linghuang_resume" "newtab" >}}resumé{{< /staticref >}}.
