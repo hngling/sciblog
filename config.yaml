@@ -6,7 +6,7 @@ theme: "starter-academic"
 
 title: LING HUANG # Website name
 baseurl: 'https://www.linghuang.cc/' # Website URL
-copyright: '© 2020-2021 [Ling Huang](https://www.linghuang.cc)'  # Footer text, e.g. '© {year} Me'
+copyright: '© 2020-2022 [Ling Huang](https://www.linghuang.cc)'  # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
