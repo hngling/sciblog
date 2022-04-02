@@ -38,7 +38,7 @@ experience:
     \ * Organize the yearly workshops\n  * Organize the monthly training webinar\n
     \ * Capture new requirements\n  * Produce training courses and materials\n  *
     Produce the product documents\n  "
-    \ * Support the customers: Caterpillar Inc. and its 20+ dealerships in Asia Pacific\n
+
 - title: Engineer & Service Manager
   company: Huawei International Pte Ltd
   company_url: https://huawei.com
