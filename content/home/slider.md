@@ -22,7 +22,7 @@ height: 300px
 
 item:
   - title: LING HUANG
-    content: 'Product Manager | Lifelong Learner | World Explorer | Foodie'
+    content: 'Lifelong Learner | World Explorer | Foodie'
     # Choose `center`, `left`, or `right` alignment.
     align: center
     # Overlay a color or image (optional).
