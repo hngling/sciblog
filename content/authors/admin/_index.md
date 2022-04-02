@@ -14,17 +14,18 @@ education:
 email: "ling.huang.2019@smu.edu.sg"
 highlight_name: true
 interests:
+- AdTech
+- RiskTech
+- Ads Risk
 - Data Analytics
 - Data Visualization
 - Product Management
-- UI/UX Design
 - User Research
-- Traveling
-- Foodie
+- Traveling & Food
 organizations:
 - name: Singapore Management University
   url: https://www.smu.edu.sg/
-role: Part-time Student from FinTech and Analytics
+role: Full-time ee in Lazada and Part-time student in SMU 
 social:
 - icon: envelope
   icon_pack: fas
@@ -40,7 +41,7 @@ social:
   link: https://www.smu.edu.sg
 # - icon: github
 #   icon_pack: fab
-#   link: https://github.com/hngling
+#   link: https://github.com/
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ling-h-600226171/
@@ -48,11 +49,11 @@ superuser: true
 title: Ling Huang
 ---
 
-Hey, I am a professional Product Manager in [Lazada Group](https://group.lazada.com). I am responsible for the Enterprise Technology products in Lazada. On my job, I work very closely with Engineering team, UI/UX team and Business stakeholders. I strive to better serve my internal customers by launching awesome products from scratch and/or optimizing existing products through iterative improvement processes.
+Hey, I am a professional Business Risk Manager (aka Trust and Safety in other internet companies) in [Lazada Group](https://group.lazada.com). I am in charge of the Advertising Business Risks. Previously, I was a Product Manager for Enterprise Technology products in Lazada. On my current job, I work very closely with Advertising Business, Advertising Product, Risk Algorithm and Risk Product team etc. to set the Ads Risk Strategy and Policy. I leverage the Data Analytics skills to monitor and analyze the algorithm performances (Accuracy and Recall). I work with Machine Learning Engineers and Data Scientists to launch/improve various algorithms to detect and mitigate the Ads risks. 
 
-In the meantime, I am also a part-time Masters student in School of Computing and Information Systems in [Singapore Management University](https://www.smu.edu.sg). My program is [Master of IT in Business](https://scis.smu.edu.sg/master-it-business) and I am focusing on FinTech and Data Analytics field. This program equips me with digital transformation mindset and data capabilities which can be applied to my workplace.
+In the meantime, I am also a part-time Masters student in School of Computing and Information Systems in [Singapore Management University](https://www.smu.edu.sg). My program is [Master of IT in Business](https://scis.smu.edu.sg/master-it-business) on FinTech and Data Analytics field. This program equips me with data engineering, data analytics, data science and business intelligence skills which tremendously are useful in my day-to-day work.
 
-In my spare time, I enjoy reading technology articles, building Data Visualizations and learning new technologies. Oh BTW, I also enjoy sleeping and eating!
+In my spare time, I enjoy reading technology articles, building Data Visualizations and learning new technologies. I am also a wanderlust and foodie!
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/linghuang_resume" "newtab" >}}resumé{{< /staticref >}}.
