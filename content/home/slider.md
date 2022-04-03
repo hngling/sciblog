@@ -22,7 +22,7 @@ height: 300px
 
 item:
   - title: LING HUANG
-    content: 'Lifelong Learner | World Explorer | Foodie'
+    content: 'Lifelong Learner | World Explorer'
     # Choose `center`, `left`, or `right` alignment.
     align: center
     # Overlay a color or image (optional).
@@ -37,7 +37,7 @@ item:
     #cta_url: 'https://example.org'
     #cta_icon_pack: fas
     #cta_icon: graduation-cap
-  - title: Travel Lover (Hodophile)
+  - title: Travel Lover
     content: 'Life is short but the world is wide!'
     align: center
     overlay_color: ''
