@@ -4,7 +4,7 @@ author: ''
 date: '2021-05-17'
 slug: the-secret-recipe-of-happines
 categories: ["R", "DataViz"]
-tags: []
+tags: ['R']
 subtitle: ''
 summary: ''
 authors: []

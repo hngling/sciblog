@@ -11,7 +11,6 @@ links:
   name: Go to Project website
   url: https://vaproject.netlify.app/
 tags:
-- Tableau
 - R
 title: Term Project from SMU module "Visual Analytics""
 ---

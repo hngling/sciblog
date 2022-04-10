@@ -13,7 +13,7 @@ slides: example
 summary: Data Visualization projects for fun
 tags:
 - Python
-- Tableau
+- R
 
 title: Side Project from my spare time!
 url_code: ""
