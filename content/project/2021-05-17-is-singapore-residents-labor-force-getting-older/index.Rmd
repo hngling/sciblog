@@ -4,7 +4,7 @@ author: ''
 date: '2021-05-17'
 slug: is-singapore-residents-labor-force-getting-older
 categories: ["DataViz", "Tableau"]
-tags: ["R Markdown"]
+tags: ["Tableau"]
 subtitle: ''
 summary: ''
 authors: [Ling Huang]
