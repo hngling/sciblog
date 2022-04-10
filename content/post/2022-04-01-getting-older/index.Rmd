@@ -1,9 +1,9 @@
 ---
-title: 'First TechPost #1'
+title: 'First Tech Post #1'
 author: ''
 date: '2022-04-01'
 slug: This-is-first-Tech-Post
-categories: ["DataViz", "Tableau"]
+categories: ["Tech Article"]
 tags: ["R Markdown"]
 subtitle: ''
 summary: ''
