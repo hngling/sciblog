@@ -1,10 +1,10 @@
 ---
-date: "2014-07-17T00:00:00Z"
+date: "2022-01-17T00:00:00Z"
 external_link: ""
 image:
   caption: https://www.lonelyplanet.com/articles/reasons-visit-nara-japan
   focal_point: Smart
-summary: Visited in 2014 July
+summary: Visited in 2022 JAN
 links:
 - icon: intercom
   icon_pack: fab
