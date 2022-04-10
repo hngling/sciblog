@@ -2,7 +2,7 @@
 date: "2021-04-20T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo from https://blog.eduonix.com/software-development/python-popular-among-programmers/
+  caption: Photo R Programming
   focal_point: Smart
 summary: Leverage Time Series analytical methodologies to predict stock prices
 links:

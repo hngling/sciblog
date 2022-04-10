@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by anonymous online
+  caption: Photo from https://blog.eduonix.com/software-development/python-popular-among-programmers/
   focal_point: Smart
 links:
 - icon: link
