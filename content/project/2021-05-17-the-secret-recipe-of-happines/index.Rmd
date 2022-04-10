@@ -68,7 +68,7 @@ happiness <- subset(happiness2005to2020,happiness2005to2020$Year>=2015)
 ```
 
 ### 1. Static plot via ggplot package - Happiness Score trend by Region
-```{r}
+```{r, fig.width=12, fig.height=6}
 names(happiness)<-str_replace_all(names(happiness), c(" " = "."))
 ggplot(happiness, aes(Year, Happiness.score, group=Region, color = Region, width = 6)) +
   geom_line(stat = "summary", fun.y = "mean", size=1)+
@@ -185,7 +185,7 @@ ggplotly(g)
 
 
 
-```{r}
+```{r, layout = "l-body-outset", fig.width= 12, fig.height= 6 }
 g<- happiness %>%
   filter(Year==2020) %>%
   select(Country, Happiness.score) %>%
