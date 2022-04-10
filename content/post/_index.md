@@ -5,5 +5,5 @@ header:
   image: ""
 title: Post Technology News and Articles
 subtitle: Publish my readings here 
-view: 3
+view: 2
 ---
