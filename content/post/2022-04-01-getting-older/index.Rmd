@@ -1,5 +1,5 @@
 ---
-title: 'First Tech Post #1'
+title: 'Tech Post #1'
 author: ''
 date: '2022-04-01'
 slug: This-is-first-Tech-Post
@@ -21,18 +21,17 @@ Starting from April 2022, I am going to publish the Tech Articles I read and I f
 
 I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
 
-- Articles
-
-1.  My Path to Financial Independence as a Software Engineer
+### 1.  My Path to Financial Independence as a Software Engineer
 You can check the article here: https://software.rajivprab.com/2021/12/26/my-path-to-financial-independence-as-a-software-engineer
 
-2.  The 100 greatest innovations of 2021
+### 2.  The 100 greatest innovations of 2021
 The article is here https://www.popsci.com/technology/best-of-whats-new-2021/#Aerospace
 
-3.  FAA Investigating Controversial Crash Video
-Please view the article
+### 3.  FAA Investigating Controversial Crash Video  
+The FAA has confirmed it's investigating the circumstances of a video purporting to show the November crash of a 1940 Taylorcraft posted by YouTuber Trevor Jacob. "The FAA is investigating this event," the agency said in a statement issued Monday. "The agency does not discuss open investigations."  The video prompted an explosive and generally harsh reaction from commenters on YouTube and on various forums. Many are calling for an investigation into the production of the video; a few are calling it fake. And plenty have analyzed it frame by frame to support their accusations about its authenticity.
+The full article is here. (https://www.avweb.com/aviation-news/plane-crash-video-sparks-online-backlash)
 
-4.  ASUS will release a 17-inch foldable OLED laptop this year
-Click it to view the news
+### 4.  ASUS will release a 17-inch foldable OLED laptop this year
+Asus is known for doing funky things, especially funky things with screens. So it was only a matter of time before the company tried its hand at one of these, and we're finally getting a look at the first generation. Say hello to the Zenbook 17 Fold OLED, a 17.3-inch laptop with a foldable OLED screen. For those seeking a more traditional offering, there's also a clamshell Zenbook 14 OLED coming later this year. Click it to view the news(https://www.theverge.com/2022/1/5/22867624/asus-zenbook-17-fold-oled-foldable-laptop-tablet-specs-price-release-date)
 
 
