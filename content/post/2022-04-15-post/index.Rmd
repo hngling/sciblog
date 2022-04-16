@@ -30,47 +30,44 @@ Starting from April 2022, I am going to publish the Tech Articles I read and I f
 
 I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
 
-### 1.  My Path to Financial Independence as a Software Engineer
-This gentleman earned financial independence at early 30s as a software engineer. The table below shows his career path and savings' growth path. He share the lessons he learnt in his early life and the experiences how he achieved the goal of financial independence. You can read the [full article here.]( https://software.rajivprab.com/2021/12/26/my-path-to-financial-independence-as-a-software-engineer)
+### 1.  The 20 Internet Giants That Rule the Web
+From late 1990s to now, the list of Top 20 companies which dominate the internet has changed dramatically. It reflects the trends of the internet industry.  
+
+The visualization below used the data primarily from ComScore's U.S. Multi-Platform Properties ranking.  You can read the [full article here.](https://www.visualcapitalist.com/visualizing-the-abundance-of-elements-in-the-earths-crust/)
   
+![](The-20-Internet-Giants-That-Rule-the-Web.jpg)
+
+### 2.  From Crypto to Christie's: How an Indian metaverse king made his fortune  
+
+Vignesh Sundaresan, aka MetaKovan, has amassed a digital art collection worth tens of millions of dollars. At a sale by Christie's, he bid $69 million to win Beeple piece - "Everydays: The First 5000 Days."  
+
+He told the Financial Times the $69 million acquisition was "much less" than 10% of his net worth, which he said was almost entirely in crypto. He represents a group of nouveau-riche people who accumulates the wealth from cryptocurrency investments.
+
+[Here is the Full article.](https://www.reuters.com/investigates/special-report/finance-crypto-sundaresan/)
+
+![](MetaKovan.jpg)
 
 
-### 2.  The 100 greatest innovations of 2021
-The winners span over a wide range of areas:  
+### 3.  NASA: Dream Chaser on a path to maiden flight as primary structure arrives at SNC  
+The FAA has confirmed it's investigating the circumstances of a video purporting to show the November crash of a 1940. The full article is [here](https://www.nasaspaceflight.com/2019/10/dream-chaser-path-flight-primary-structure-snc/).
 
-* Health  
-* Gadgets  
-- Auto  
-- Personal Care  
-- Aerospace  
-- Engineering  
-- Entertainment  
-- Home  
-- Security  
-- Sports and Outdoors  
-
-I list two examples.
-
-#### A drone that refuels fighter jets: Boeing MQ-25  
-
-Boeing is bringing the future of unmanned aircraft carrier aviation to the U.S. Navy with the MQ-25.
-
-![](drone.jpg "MQ-25")
-
-#### AI that predicts the 3D structure of proteins  
-AlphaFold, an AI system developed by DeepMind, is able to predict a protein's 3D structure.
-
-![](ai.jpg "Title")
-
-The article is [here](https://www.popsci.com/technology/best-of-whats-new-2021/#Aerospace).
-
-### 3.  FAA Investigating Controversial Crash Video  
-The FAA has confirmed it's investigating the circumstances of a video purporting to show the November crash of a 1940 Taylorcraft posted by YouTuber Trevor Jacob. "The FAA is investigating this event," the agency said in a statement issued Monday. "The agency does not discuss open investigations."  The video prompted an explosive and generally harsh reaction from commenters on YouTube and on various forums. Many are calling for an investigation into the production of the video; a few are calling it fake. And plenty have analyzed it frame by frame to support their accusations about its authenticity.
-The full article is [here](https://www.avweb.com/aviation-news/plane-crash-video-sparks-online-backlash).
-
-### 4.  ASUS will release a 17-inch foldable OLED laptop this year
-Asus is known for doing funky things, especially funky things with screens. So it was only a matter of time before the company tried its hand at one of these, and we're finally getting a look at the first generation. Say hello to the Zenbook 17 Fold OLED, a 17.3-inch laptop with a foldable OLED screen. For those seeking a more traditional offering, there's also a clamshell Zenbook 14 OLED coming later this year. Click it to view [the news](https://www.theverge.com/2022/1/5/22867624/asus-zenbook-17-fold-oled-foldable-laptop-tablet-specs-price-release-date).
+### 4.  AMAZON office in Seattle: The spheres
+In January 2018, Amazon officially launch their hybrid greenhouse office "The Spheres: The plants, the architecture, and a transforming city".  
 
 
-### 5.  ASUS year
-Asus is known for doing funky things, especially funky things with screens. So it was only a matter of time before the company tried its hand at one of these, and we're finally getting a look at the first generation. Say hello to the Zenbook 17 Fold OLED, a 17.3-inch laptop with a foldable OLED screen. For those seeking a more traditional offering, there's also a clamshell Zenbook 14 OLED coming later this year. Click it to view [the news](https://www.theverge.com/2022/1/5/22867624/asus-zenbook-17-fold-oled-foldable-laptop-tablet-specs-price-release-date).
+Click it to view [the news](https://seattle.curbed.com/2018/1/30/16947838/amazon-spheres-seattle-architecture-photos).
+
+![](sphere1.jpg)
+
+![](sphere2.jpg)
+
+
+### 5.  Five mysteries the Standard Model can't explain  
+
+- __1. Why do neutrinos have mass?__
+- __2. What is dark matter?__
+- __3. Why is there so much matter in the universe?__
+- __4. Why is the expansion of the universe accelerating?__
+- __5. Is there a particle associated with the force of gravity?__
+
+Asus is known for doing funky things, especially funky things with screens. So it was only a matter. Click it to view [the news](https://www.symmetrymagazine.org/article/five-mysteries-the-standard-model-cant-explain).
