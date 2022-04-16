@@ -1,8 +1,8 @@
 ---
-title: 'Tech Post #3'
+title: 'Tech Post No.3'
 author: ''
 date: '2022-04-15'
-slug: This-is-first-Tech-Post
+slug: This-is-04-15-Post
 categories: ["Tech Article"]
 tags: ["R Markdown"]
 subtitle: ''
@@ -69,4 +69,8 @@ The FAA has confirmed it's investigating the circumstances of a video purporting
 The full article is [here](https://www.avweb.com/aviation-news/plane-crash-video-sparks-online-backlash).
 
 ### 4.  ASUS will release a 17-inch foldable OLED laptop this year
+Asus is known for doing funky things, especially funky things with screens. So it was only a matter of time before the company tried its hand at one of these, and we're finally getting a look at the first generation. Say hello to the Zenbook 17 Fold OLED, a 17.3-inch laptop with a foldable OLED screen. For those seeking a more traditional offering, there's also a clamshell Zenbook 14 OLED coming later this year. Click it to view [the news](https://www.theverge.com/2022/1/5/22867624/asus-zenbook-17-fold-oled-foldable-laptop-tablet-specs-price-release-date).
+
+
+### 5.  ASUS year
 Asus is known for doing funky things, especially funky things with screens. So it was only a matter of time before the company tried its hand at one of these, and we're finally getting a look at the first generation. Say hello to the Zenbook 17 Fold OLED, a 17.3-inch laptop with a foldable OLED screen. For those seeking a more traditional offering, there's also a clamshell Zenbook 14 OLED coming later this year. Click it to view [the news](https://www.theverge.com/2022/1/5/22867624/asus-zenbook-17-fold-oled-foldable-laptop-tablet-specs-price-release-date).
