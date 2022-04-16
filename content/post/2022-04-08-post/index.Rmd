@@ -1,5 +1,5 @@
 ---
-title: 'Tech Post #2'
+title: 'Tech Post No.2'
 author: ''
 date: '2022-04-08'
 slug: This-is-04-08-Tech-Post
@@ -17,47 +17,45 @@ image:
 projects: []
 ---
 
-Hey there, recently I read several articles. They are quite interesting.
+Hey there, recently I read some articles about the Artificial Intelligence (AI). The use of AI in our real-life has been implemented by many companies in various areas. However, the AI technology can also used to create faked videos, photos and texts etc. I handpicked several interesting ones to showcase the stories.
 
-I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
+The link to the original article is also provided. Feel free to post it on your own website or send to your friends if you like it.
 
-### 1.  My Path to Financial Independence as a Software Engineer
-This gentleman earned financial independence at early 30s as a software engineer. The table below shows his career path and savings' growth path. He share the lessons he learnt in his early life and the experiences how he achieved the goal of financial independence. You can read the [full article here.]( https://software.rajivprab.com/2021/12/26/my-path-to-financial-independence-as-a-software-engineer)
-  
+### 1.  AI deepfakes are now as simple as typing whatever you want your subject to say  
+In this scary use case, the software is able to use machine learning techniques to let users edit the text transcript of a video to add, delete, or change the words coming right out of somebody's mouth. Basically, people can use it to  create fake videos and misinformation.  
+
+As per the researchers mentioned, "THEIR WORK COULD BE USED TO FALSIFY PERSONAL STATEMENTS AND SLANDER PROMINENT INDIVIDUALS."
+You can read the [article here.](https://www.theverge.com/2019/6/10/18659432/deepfake-ai-fakes-tech-edit-video-by-typing-new-words)
+![](AI-fake-video.png)
 
 
-### 2.  The 100 greatest innovations of 2021
-The winners span over a wide range of areas:  
+### 2.  Welcome to the Simulation  
 
-* Health  
-* Gadgets  
-- Auto  
-- Personal Care  
-- Aerospace  
-- Engineering  
-- Entertainment  
-- Home  
-- Security  
-- Sports and Outdoors  
+GAN, which stands for 'generative adversarial network', can generate the images automatically.  
 
-I list two examples.
+The first piece of computer-generated art was even sold by [Christie's](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) for $432,500 on 25 October 2018 in New York. This article ["*Welcome to the Simulation*"](https://blog.inten.to/welcome-to-the-simulation-dd0d8cb6534d) explained the concept fo Image processing and GAN and how to generate the new images from input images, or input texts.  
 
-#### A drone that refuels fighter jets: Boeing MQ-25  
+Three Japanese researchers (Satoshi Iizuka, Edgar Simo-Serra, Hiroshi Ishikawa) built a model which can complete the missing part of the images locally and globally to [make it look consistent.](https://web.archive.org/web/20191016060740/http://iizuka.cs.tsukuba.ac.jp/projects/completion/en/)
 
-Boeing is bringing the future of unmanned aircraft carrier aviation to the U.S. Navy with the MQ-25.
 
-![](drone.jpg "MQ-25")
+![](AI-Portrait.jpg)
 
-#### AI that predicts the 3D structure of proteins  
-AlphaFold, an AI system developed by DeepMind, is able to predict a protein's 3D structure.
 
-![](ai.jpg "Title")
+### 3. AI trained on Yelp data writes fake restaurant reviews  
+A neural network trained model can generate fake restaurant reviews which is 'indistinguishable' from real deal.  
 
-The article is [here](https://www.popsci.com/technology/best-of-whats-new-2021/#Aerospace).
+As we know that we can buy fake reviews from humans online, but now it's completely different if we can automate the process via AI bots churning out super realistic write-ups on Amazon, Yelp, TripAdvisor, and everywhere else you look. The article is [here](https://www.theverge.com/2017/8/31/16232180/ai-fake-reviews-yelp-amazon).
 
-### 3.  FAA Investigating Controversial Crash Video  
-The FAA has confirmed it's investigating the circumstances of a video purporting to show the November crash of a 1940 Taylorcraft posted by YouTuber Trevor Jacob. "The FAA is investigating this event," the agency said in a statement issued Monday. "The agency does not discuss open investigations."  The video prompted an explosive and generally harsh reaction from commenters on YouTube and on various forums. Many are calling for an investigation into the production of the video; a few are calling it fake. And plenty have analyzed it frame by frame to support their accusations about its authenticity.
-The full article is [here](https://www.avweb.com/aviation-news/plane-crash-video-sparks-online-backlash).
+![](yelp.png)
 
-### 4.  ASUS will release a 17-inch foldable OLED laptop this year
-Asus is known for doing funky things, especially funky things with screens. So it was only a matter of time before the company tried its hand at one of these, and we're finally getting a look at the first generation. Say hello to the Zenbook 17 Fold OLED, a 17.3-inch laptop with a foldable OLED screen. For those seeking a more traditional offering, there's also a clamshell Zenbook 14 OLED coming later this year. Click it to view [the news](https://www.theverge.com/2022/1/5/22867624/asus-zenbook-17-fold-oled-foldable-laptop-tablet-specs-price-release-date).
+
+
+### 4.  The oldest tree in the world
+The scientists have believed that the oldest tree lives in Sweden. This tree, called as Old Tjikko, is a 9,500-year-old Norwegian Spruce tree. Professor Leif Kullman discovered it in 2004 and verified its age by testing the carbon-14. The full article is [here](https://swedesinthestates.com/the-worlds-oldest-tree-lives-in-sweden/).
+
+![](oldest-tree-old-tjikko-sweden.jpg)
+
+### 5.  Hundreds of thousands of people read novels on Instagram
+In August 2018, the New York Public Library released an experiment to put the full text of novels in its Instagram Stories. As of September 2019, an estimated 300,000 people were reading books this way. They may be the future. Click it to view [the news](https://www.fastcompany.com/90392917/the-next-big-reading-platform-may-be-instagram).
+
+![](instagram.jpg)
