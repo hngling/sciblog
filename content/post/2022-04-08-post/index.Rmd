@@ -1,14 +1,14 @@
 ---
-title: 'Tech Post #1'
+title: 'Tech Post #2'
 author: ''
-date: '2022-04-01'
-slug: This-is-first-Tech-Post
+date: '2022-04-08'
+slug: This-is-04-08-Tech-Post
 categories: ["Tech Article"]
 tags: ["R Markdown"]
 subtitle: ''
 summary: ''
 authors: [Ling Huang]
-lastmod: '2022-04-10T20:25:50+08:00'
+lastmod: '2022-04-16T12:36:50+08:00'
 featured: no
 image:
   caption: ''
@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-Starting from April 2022, I am going to publish the Tech Articles I read and I feel it is interesting and/or useful for everyone to read.
+Hey there, recently I read several articles. They are quite interesting.
 
 I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
 
@@ -25,21 +25,6 @@ I will provide a short summary of each article and the link to the original arti
 This gentleman earned financial independence at early 30s as a software engineer. The table below shows his career path and savings' growth path. He share the lessons he learnt in his early life and the experiences how he achieved the goal of financial independence. You can read the [full article here.]( https://software.rajivprab.com/2021/12/26/my-path-to-financial-independence-as-a-software-engineer)
   
 
-| Year | Employer          | Annual Income | Amount Spent (excl taxes) | Net Worth | Notes                                                  |
-|------|-------------------|---------------|---------------------------|-----------|--------------------------------------------------------|
-| 2009 | Intel             | 100,000       | 38,000                    | 35,000    | New college grad with a Master's degree in Engineering |
-| 2010 | Intel             | 100,000       | 38,000                    | 75,000    |                                                        |
-| 2011 | Intel             | 105,000       | 38,000                    | 122,000   |                                                        |
-| 2012 | Intel/Sun         | 115,000       | 38,000                    | 175,000   |                                                        |
-| 2013 | Sun               | 125,000       | 39,000                    | 236,000   |                                                        |
-| 2014 | Sun               | 125,000       | 39,000                    | 320,000   |                                                        |
-| 2015 | Hedge Fund        | 230,000       | 56,000                    | 450,000   | Career pivot from Hardware -> Software                 |
-| 2016 | Hedge Fund/Google | 230,000       | 56,000                    | 505,000   |                                                        |
-| 2017 | Google            | 300,000       | 64,000                    | 850,000   |                                                        |
-| 2018 | Google            | 330,000       | 68,000                    | 990,000   | Income boost due to increase in Google stock price     |
-| 2019 | Amazon            | 475,000       | 94,000                    | 1,130,000 |                                                        |
-| 2020 | Amazon            | 475,000       | 78,000                    | 1,470,000 |                                                        |
-| 2021 | Amazon            | 625,000       | 78,000                    | 2,400,000 | Income boost due to increase in Amazon stock price     |
 
 ### 2.  The 100 greatest innovations of 2021
 The winners span over a wide range of areas:  
