@@ -18,22 +18,12 @@ projects: []
 ---
 
 
-I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
-
-
-I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
-
-
-I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
-
-Starting from April 2022, I am going to publish the Tech Articles I read and I feel it is interesting and/or useful for everyone to read.
-
-I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
+This week, I selected 5 articles which I think is very interesting. The first article visualizes the Top 20 internet companies from Year-1998 to now. The second article shows the path to rich from an Indian crypto-king Mr. Vignesh Sundaresan. The third article . The fourth article presents the new concept office introduced by Amazon in 2018 in Seattle, named as "The Sphere". The last one lists the five crucial questions that we cannot answer by Standard Model in particle physics.  
 
 ### 1.  The 20 Internet Giants That Rule the Web
 From late 1990s to now, the list of Top 20 companies which dominate the internet has changed dramatically. It reflects the trends of the internet industry.  
 
-The visualization below used the data primarily from ComScore's U.S. Multi-Platform Properties ranking.  You can read the [full article here.](https://www.visualcapitalist.com/visualizing-the-abundance-of-elements-in-the-earths-crust/)
+The visualization below used the data primarily from ComScore's U.S. Multi-Platform Properties ranking.  You can read [the article here.](https://www.visualcapitalist.com/visualizing-the-abundance-of-elements-in-the-earths-crust/).
   
 ![](The-20-Internet-Giants-That-Rule-the-Web.jpg)
 
@@ -43,17 +33,20 @@ Vignesh Sundaresan, aka MetaKovan, has amassed a digital art collection worth te
 
 He told the Financial Times the $69 million acquisition was "much less" than 10% of his net worth, which he said was almost entirely in crypto. He represents a group of nouveau-riche people who accumulates the wealth from cryptocurrency investments.
 
-[Here is the Full article.](https://www.reuters.com/investigates/special-report/finance-crypto-sundaresan/)
+Here is [the Full article.](https://www.reuters.com/investigates/special-report/finance-crypto-sundaresan/).
 
 ![](MetaKovan.jpg)
 
 
-### 3.  NASA: Dream Chaser on a path to maiden flight as primary structure arrives at SNC  
-The FAA has confirmed it's investigating the circumstances of a video purporting to show the November crash of a 1940. The full article is [here](https://www.nasaspaceflight.com/2019/10/dream-chaser-path-flight-primary-structure-snc/).
+### 3.  These Mighty Shorebirds Keep Breaking Flight Records  
 
-### 4.  AMAZON office in Seattle: The spheres
+A tagged Bar-tailed Godwit, #4BBRW, landed in Australia in October 2021, after flying 239 hours nonstop from Alaska and breaking a flight record. The first map image below displays the travelling routes by this Godwit. The second image is the #4BBRW.  
+The full article is [here](https://www.audubon.org/news/these-mighty-shorebirds-keep-breaking-flight-records-and-you-can-follow-along).
+
+![](shorebirds.jpg)
+![](shorebirds2.jpg)
+### 4.  AMAZON office in Seattle: " _The Spheres_ "
 In January 2018, Amazon officially launch their hybrid greenhouse office "The Spheres: The plants, the architecture, and a transforming city".  
-
 
 Click it to view [the news](https://seattle.curbed.com/2018/1/30/16947838/amazon-spheres-seattle-architecture-photos).
 
@@ -64,10 +57,14 @@ Click it to view [the news](https://seattle.curbed.com/2018/1/30/16947838/amazon
 
 ### 5.  Five mysteries the Standard Model can't explain  
 
-- __1. Why do neutrinos have mass?__
-- __2. What is dark matter?__
-- __3. Why is there so much matter in the universe?__
-- __4. Why is the expansion of the universe accelerating?__
-- __5. Is there a particle associated with the force of gravity?__
+- 1. Why do neutrinos have mass?
+- 2. What is dark matter?
+- 3. Why is there so much matter in the universe?
+- 4. Why is the expansion of the universe accelerating?
+- 5. Is there a particle associated with the force of gravity?
 
-Asus is known for doing funky things, especially funky things with screens. So it was only a matter. Click it to view [the news](https://www.symmetrymagazine.org/article/five-mysteries-the-standard-model-cant-explain).
+As per Don Lincoln, a physicist at the US Department of Energy's Fermi National Accelerator Laboratory,  "The Standard Model is scientists' best guess at explaining the universe."  
+
+Since the scientists formulated Standard Model in 1970s, it has predicted the outcome of countless experiments in particle physics with remarkable accuracy. Having said that, it still fails to answer the 5 mysteries. [Click it to view the details](https://www.symmetrymagazine.org/article/five-mysteries-the-standard-model-cant-explain). 
+
+![](mysteries.jpg)
