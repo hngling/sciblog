@@ -1,0 +1,67 @@
+---
+title: 'Tech Post No.4'
+author: ''
+date: '2022-04-22'
+slug: This-is-04-22-Post
+categories: ["Tech Article"]
+tags: ["R Markdown"]
+subtitle: ''
+summary: ''
+authors: [Ling Huang]
+lastmod: '2022-04-22T21:00:50+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+This week, I wanted to share some learning stuff which may be useful to you.
+
+I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.  
+
+I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
+
+I will provide a short summary of each article and the link to the original article. Feel free to post it on your own website or send to your friends if you like it.
+
+### 1.  My Path to Financial Independence as a Software Engineer
+This gentleman earned financial independence at early 30s as a software engineer. The table below shows his career path and savings' growth path. He share the lessons he learnt in his early life and the experiences how he achieved the goal of financial independence. You can read the [full article here.]( https://software.rajivprab.com/2021/12/26/my-path-to-financial-independence-as-a-software-engineer)
+  
+
+
+### 2.  The 100 greatest innovations of 2021
+The winners span over a wide range of areas:  
+
+- Health  
+- Gadgets  
+- Auto  
+- Personal Care  
+- Aerospace  
+- Engineering  
+- Entertainment  
+- Home  
+- Security  
+- Sports and Outdoors  
+
+I list two examples.
+
+#### A drone that refuels fighter jets: Boeing MQ-25  
+
+Boeing is bringing the future of unmanned aircraft carrier aviation to the U.S. Navy with the MQ-25.
+
+![](drone.jpg "MQ-25")
+
+#### AI that predicts the 3D structure of proteins  
+AlphaFold, an AI system developed by DeepMind, is able to predict a protein's 3D structure.
+
+![](ai.jpg "Title")
+
+The article is [here](https://www.popsci.com/technology/best-of-whats-new-2021/#Aerospace).
+
+### 3.  FAA Investigating Controversial Crash Video  
+The FAA  few are calling it fake. And plenty have analyzed it frame by frame to support their accusations about its authenticity.
+The full article is [here](https://www.avweb.com/aviation-news/plane-crash-video-sparks-online-backlash).
+
+### 4.  ASUS will release a 17-inch foldable OLED laptop this year
+Asus is known. Click it to view [the news](https://www.theverge.com/2022/1/5/22867624/asus-zenbook-17-fold-oled-foldable-laptop-tablet-specs-price-release-date).
