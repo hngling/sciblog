@@ -14,7 +14,7 @@ experience:
   location: Singapore
   date_start: '2021-05-01'
   date_end: ''
-  description: "  Responsibilities include:\n  \n  * Data Analytics\n    * Business Intelligence\n    * Content Risk & Ads Risk \n * Trust and Safety\n  * Risk Policy and SOP\n
+  description: "  Responsibilities include:\n  \n  * Data Analytics\n  * Business Intelligence\n  * Content Risk & Ads Risk \n * Trust and Safety\n  * Risk Policy and SOP\n
     \ "
 - title: Product Manager
   company: Lazada South East Asia Pte Ltd
