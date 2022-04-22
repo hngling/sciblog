@@ -23,35 +23,35 @@ feature:
   icon: r-project
   icon_pack: fab
   name: R
-- description: 30%
+- description: 80%
   icon: python
   icon_pack: fab
   name: Python
-- description: 70%
+- description: 60%
   icon: "Tableau"
   icon_pack: "emoji"
   name: Tablaeu
-- description: 50%
+- description: 30%
   icon: "SAS"
   icon_pack: "emoji"
   name: SAS
-- description: 100%
+- description: 90%
   icon: chart-line
   icon_pack: fas
   name: Applied Statistics
-- description: 20%
+- description: 60%
   icon: laptop-code
   icon_pack: fas
   name: Machine Learning
-- description: 80%
+- description: 60%
   icon: landmark
   icon_pack: fas
   name: Digital Banking
-- description: 200%
+- description: 100%
   icon: ":nerd_face:"
   icon_pack: "emoji"
   name: Curiosity
-- description: 200%
+- description: 100%
   icon: ":orange_heart:"
   icon_pack: "emoji"
   name: Optimism
