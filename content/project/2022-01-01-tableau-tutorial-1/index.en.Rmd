@@ -10,7 +10,7 @@ tags: ['Tableau']
 subtitle: ''
 summary: ''
 authors: [Ling Huang]
-lastmod: '2022-04-26T20:55:29+08:00'
+lastmod: '2022-01-16T12:55:29+08:00'
 featured: no
 image:
   caption: ''
@@ -49,7 +49,7 @@ The link to [this chart in my Tableau Public](https://public.tableau.com/app/pro
 
 # 3. Quadrant Chart  
 
-In this chart, I plot each state's Sales and Profit. X-axis is the **state's Sales in Percentile** and Y-axis is the **state's Profit in Percentile**. 
+In this chart, I wanted to plot each state's Sales and Profit. X-axis is the **state's Sales in Percentile** and Y-axis is the **state's Profit in Percentile**. I also added the Average as the Reference line and the **95% Confidence interval** of Average line.
 
 The size of the bubble reflects the Sales revenue. That being said, the larger it is, the more sales it has.  
 
