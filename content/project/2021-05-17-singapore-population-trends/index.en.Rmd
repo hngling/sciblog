@@ -1,5 +1,5 @@
 ---
-title: "Tableau: Bar Chart, Pareto Chart and Quandrant Chart"
+title: "Tableau: Bar Chart, Pareto Chart and Quadrant Chart"
 author: ''
 date: '2022-01-01'
 slug: Tableau-How-To
