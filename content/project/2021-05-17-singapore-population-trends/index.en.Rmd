@@ -1,8 +1,8 @@
 ---
-title: Singapore Population Trends
+title: "Tableau: Bar Chart, Pareto Chart and Quandrant Chart"
 author: ''
 date: '2021-05-17'
-slug: singapore-population-trends
+slug: Tableau-How-To
 categories:
   - DataViz
   - Tableau
@@ -10,7 +10,7 @@ tags: ['Tableau']
 subtitle: ''
 summary: ''
 authors: [Ling Huang]
-lastmod: '2021-05-17T20:55:29+08:00'
+lastmod: '2022-04-26T20:55:29+08:00'
 featured: no
 image:
   caption: ''
@@ -19,13 +19,31 @@ image:
 projects: []
 ---
 
+**Tableau** is a powerful and fastest growing data visualization tool used in the Business Intelligence Industry. It helps in simplifying raw data in a very easily understandable format. Tableau helps create the data that can be understood by professionals at any level in an organization. Data analysis is very fast with Tableau tool and the visualizations created are in the form of dashboards and worksheets.
 
-Population aging is a well-known phenomenon for many years in Singapore. But how does it affect the labor force market?
+Tableau offers a group of products.
 
-Recently, I gathered the Residents labor force data (from 2009 to 2019) from Singapore Ministry of Manpower website. In this post, I wanted to share some of the insights derived from my data visualization. In my data visualization, I compared the residents Labor Force Participation Rate in 2009 with that in 2019. Besides, I compared the Shares of different Age Groups in the labor market in 2009 and in 2019. The tool I used is Tableau.
+![](TableauProductSuite.png)
 
 
-# 1. Objective
+In this post, I would like to present three commonly used charts: Bar Chart, Pareto Chart and Quadrant Chart. The dataset I used is the Superstore 2020 sales data. You can download it from [here](./Superstore2020.xls). I created the charts in the Tableau Desktop and then published them on my Tableau Public website.
+
+# 1. Bar Chart
+
+Singapore Ministry of Manpower released the report [Labour Force in Singapore 2019](https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx) on 30-Jan-2020. On the page #22, it threw a statement that **'More older residents in labor force'** and then illustrated it with the chart **'Residents Labor Force by Age'**.
+
+<div class='tableauPlaceholder' id='viz1650957298132' style='position: relative'><noscript><a href='#'><img alt='Total Sales by Quarter by Region from 2016 to 2019 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalSalesbyQuarterbyRegion&#47;AverageByRegion&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TotalSalesbyQuarterbyRegion&#47;AverageByRegion' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalSalesbyQuarterbyRegion&#47;AverageByRegion&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650957298132');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+
+# 2. Pareto Chart
+
+Singapore Ministry of Manpower released the report [Labour Force in Singapore 2019](https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx) on 30-Jan-2020. On the page #22, it threw a statement that **'More older residents in labor force'** and then illustrated it with the chart **'Residents Labor Force by Age'**.
+
+<div class='tableauPlaceholder' id='viz1650956426052' style='position: relative'><noscript><a href='#'><img alt='Total Sales by Quarter by Region from 2016 to 2019 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalSalesbyQuarterbyRegion&#47;AverageByRegion&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TotalSalesbyQuarterbyRegion&#47;AverageByRegion' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalSalesbyQuarterbyRegion&#47;AverageByRegion&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650956426052');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+# 3. Quadrant Chart  
 
 Singapore Ministry of Manpower released the report [Labour Force in Singapore 2019](https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx) on 30-Jan-2020. On the page #22, it threw a statement that **'More older residents in labor force'** and then illustrated it with the chart **'Residents Labor Force by Age'**.
 
