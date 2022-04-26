@@ -30,16 +30,14 @@ In this post, I would like to present three commonly used charts: Bar Chart, Par
 
 # 1. Bar Chart
 
-Singapore Ministry of Manpower released the report [Labour Force in Singapore 2019](https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx) on 30-Jan-2020. On the page #22, it threw a statement that **'More older residents in labor force'** and then illustrated it with the chart **'Residents Labor Force by Age'**.
-
-<div class='tableauPlaceholder' id='viz1650957298132' style='position: relative'><noscript><a href='#'><img alt='Total Sales by Quarter by Region from 2016 to 2019 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalSalesbyQuarterbyRegion&#47;AverageByRegion&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TotalSalesbyQuarterbyRegion&#47;AverageByRegion' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalSalesbyQuarterbyRegion&#47;AverageByRegion&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650957298132');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+A blend of Bar charts are to show each region's sales figure across **the quarters** from the year **2016 to 2019**.
 
 <iframe src="https://public.tableau.com/views/TotalSalesbyQuarterbyRegion/AverageByRegion?:showVizHome=no&:embed=true"
  width="700" height="900"></iframe>
 
 # 2. Pareto Chart
 
-Singapore Ministry of Manpower released the report [Labour Force in Singapore 2019](https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx) on 30-Jan-2020. On the page #22, it threw a statement that **'More older residents in labor force'** and then illustrated it with the chart **'Residents Labor Force by Age'**.
+Pareto Chart is very useful and the purpose of the Pareto chart is to highlight the most important components among a (typically large) set of factors. If you do not know what is Pareto Chart, you can find its definition in [Wikipedia](https://en.wikipedia.org/wiki/Pareto_chart). In my Pareto Chart, I rank the state's sales in descending order. Then, calculate the running total percentage of the sales as the right side Y-axis.
 
 <iframe src="https://public.tableau.com/views/ParetoChart_16509549011250/Pareto?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no&:embed=true"
  width="700" height="600"></iframe>
@@ -47,7 +45,11 @@ Singapore Ministry of Manpower released the report [Labour Force in Singapore 20
 
 # 3. Quadrant Chart  
 
-Singapore Ministry of Manpower released the report [Labour Force in Singapore 2019](https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx) on 30-Jan-2020. On the page #22, it threw a statement that **'More older residents in labor force'** and then illustrated it with the chart **'Residents Labor Force by Age'**.
+In this chart, I plot each state's Sales and Profit. X-axis is the **state's Sales in Percentile** and Y-axis is the **state's Profit in Percentile**. 
+
+The size of the bubble reflects the Sales revenue. That being said, the larger it is, the more sales it has.  
+
+The color of the bubble means the Profitability. In other words, the green color indicate it's profitable whereas the red color indicates non-profitable.
 
 
 <iframe src="https://public.tableau.com/views/QuadrantChart_16509548402850/Quadrant?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no&:embed=true"
