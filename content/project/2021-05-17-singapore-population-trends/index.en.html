@@ -60,13 +60,9 @@ projects: []
 <div id="final-dataviz" class="section level1">
 <h1>Final DataViz</h1>
 <p>Here is the final data visualization.</p>
-<iframe src="https://public.tableau.com/views/Pop_Pyramid/SingaporePopulationPyramid?:language=en-US&amp;:display_count=n&amp;:origin=viz_share_link&amp;:showVizHome=no&amp;:embed=true" width="600" height="500" title="Final DataViz">
+<iframe src="https://public.tableau.com/views/Pop_Pyramid/SingaporePopulationPyramid?:language=en-US&amp;:display_count=n&amp;:origin=viz_share_link&amp;:showVizHome=no&amp;:embed=true" width="600" height="800" title="Final DataViz">
 </iframe>
 
-
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe src="https://public.tableau.com/views/Pop_Pyramid/SingaporePopulationPyramid/{{ .Get "id" }}?enablejsapi=1{{ with .Get "color" }}{{ if eq . "white" }}&color=white{{ end }}{{ end }}{{ with .Get "autoplay" }}{{ if eq . "true" }}&autoplay=1{{ end }}{{ end }}{{ if isset .Params "yt_start" }}&start={{ .Get "yt_start" }}{{ end }}{{ if isset .Params "yt_end" }}&end={{ .Get "yt_end" }}{{ end }}{{ with .Get "modestbranding" }}{{ if eq . "true" }}&modestbranding=1{{ end }}{{ end }}"{{ if .Get "class" }} class="{{ .Get "class" }}"{{ end }} allowfullscreen></iframe>
-</div>
 
 <p>The link to <a href="https://public.tableau.com/views/Pop_Pyramid/SingaporePopulationPyramid?:language=en-US&amp;:display_count=n&amp;:origin=viz_share_link">this chart in my Tableau Public</a>.</p>
 </div>
