@@ -27,14 +27,15 @@ In this post, I used the Singapore Population data from [data.gov.sg](https://da
 
 I created the charts in the Tableau Desktop and then published them on my Tableau Public website.
 
-# 1. Step 1
+# Step 1
 
-I removed the data (before Year 1981) and saved it as a new file in my laptop. Then, I rename the column as below: Year, Gender, Age Group and Population.
+I removed the data (before Year 1981) and saved it as a new file in my laptop. 
+
+After import the file into Tableau, I rename the column as below: Year, Gender, Age Group and Population within Tableau.
 
 ![](columns.png)
 
-
-# 2. Step 2
+# Step 2
 
 I created two calculated fields: Female Population and Male Population.  
 
@@ -44,9 +45,9 @@ I created two calculated fields: Female Population and Male Population.
 
 ![](male.png)
 
-# 3. Step 3  
+# Step 3  
 
-In the Tableau sheet, add the **Male Population** and **Female Population** as the columns and the *Age Group* as Rows.
+In the Tableau sheet, add the **Male Population** and **Female Population** as *Columns* and the **Age Group** as *Rows*.
 
 Choose blue color for Male Population and red color for Female Population.
 
@@ -54,14 +55,13 @@ Reverse the Male Population Axis as below.
 
 ![](reverse.png)
 
-# 4. Step 4  
+# Step 4  
 
-In the Filters pane, filter out the unwanted "Age Groups".
+In the Filters pane, filter out the unwanted "ages".
 
 ![](filters.png)
 
-
-# 5. Step 5  
+# Step 5  
 
 Add the **Year** into Pages pane. After that, the "Year" will show up as a Card on the upper right side.
 
@@ -75,12 +75,12 @@ We can use a powerful tool within Tableau: Animation, by running the pages from 
 
 ![](animation.gif)
 
-# 3. Final DataViz  
+# Final DataViz  
 
 Here is the final data visualization.
 
 <iframe src="https://public.tableau.com/views/Pop_Pyramid/SingaporePopulationPyramid?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no&:embed=true"
- width="700" height="1000"></iframe>
+ width="600" height="500"></iframe>
  
  
 The link to [this chart in my Tableau Public](https://public.tableau.com/views/Pop_Pyramid/SingaporePopulationPyramid?:language=en-US&:display_count=n&:origin=viz_share_link).
