@@ -34,6 +34,8 @@ A blend of Bar charts are to show each region's sales figure across **the quarte
 
 <iframe src="https://public.tableau.com/views/TotalSalesbyQuarterbyRegion/AverageByRegion?:showVizHome=no&:embed=true"
  width="700" height="900"></iframe>
+ 
+The link to [this chart in my Tableau Public](https://public.tableau.com/views/TotalSalesbyQuarterbyRegion/AverageByRegion?:display_count=n&:origin=viz_share_link).
 
 # 2. Pareto Chart
 
@@ -43,16 +45,19 @@ Pareto Chart is very useful and the purpose of the Pareto chart is to highlight 
  width="700" height="600"></iframe>
 
 
+The link to [this chart in my Tableau Public](https://public.tableau.com/app/profile/hngling/viz/ParetoChart_16509549011250/Pareto).
+
 # 3. Quadrant Chart  
 
 In this chart, I plot each state's Sales and Profit. X-axis is the **state's Sales in Percentile** and Y-axis is the **state's Profit in Percentile**. 
 
 The size of the bubble reflects the Sales revenue. That being said, the larger it is, the more sales it has.  
 
-The color of the bubble means the Profitability. In other words, the green color indicate it's profitable whereas the red color indicates non-profitable.
+The color of the bubble means the Profitability. The green color indicate it's profitable whereas the red color indicates non-profitable. The density of the color means the profitable level or non-profitable. In other words, the denser the color is, the more profitable or more non-profitable it is.
 
 
 <iframe src="https://public.tableau.com/views/QuadrantChart_16509548402850/Quadrant?:language=en-US&:display_count=n&:origin=viz_share_link&:showVizHome=no&:embed=true"
  width="700" height="700"></iframe>
  
  
+The link to [this chart in my Tableau Public](https://public.tableau.com/views/QuadrantChart_16509548402850/Quadrant).
