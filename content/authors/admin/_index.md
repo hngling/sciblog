@@ -14,9 +14,11 @@ education:
 email: "ling.huang.2019@smu.edu.sg"
 highlight_name: true
 interests:
-- Business Risk
 - Data Analytics
+- Data Science
+- Machine Learning
 - Data Visualization
+- Business Risk
 - Product Management
 - User Research
 organizations:
@@ -59,4 +61,4 @@ In the meantime, I am also a part-time Masters student in School of Computing an
 In my spare time, I enjoy reading technology articles, building Data Visualizations and learning new technologies. I am also a wanderlust and foodie!
 
 
-#{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/linghuang_resume" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/linghuang_resume" "newtab" >}}resumé{{< /staticref >}}.

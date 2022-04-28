@@ -14,7 +14,7 @@ experience:
   location: Singapore
   date_start: '2021-05-01'
   date_end: ''
-  description: "  Responsibilities include:\n  \n  * Data Analytics\n  * Business Intelligence\n  * Content Risk & Ads Risk \n * Trust and Safety\n  * Risk Policy and SOP\n
+  description: "  Responsibilities include:\n  \n  * Data Analytics\n  * Business Intelligence\n  * Advertising Products \n * Risk Assessment \n  * Risk Policy and SOP\n
     \ "
 - title: Product Manager
   company: Lazada South East Asia Pte Ltd
@@ -24,9 +24,8 @@ experience:
   date_start: '2019-03-01'
   date_end: '2021-04-30'
   description: "  Responsibilities include:\n  \n  * Business Processes Automation\n
-    \ * Business Processes Re-engineering\n  * User Study and Research\n  * Product
-    Design Prototyping\n  * Product Management\n  * Data Analytics\n  * Business Stakeholder
-    Management\n  "
+    \ * Business Processes Re-engineering\n  * User Research\n  * Product
+    Design Prototyping\n  * Product Management\n  * Data Analytics\n  * Digital Transformation\n  "
 - title: Consultant
   company: LogicBay Corp
   company_url: http://logicbay.com
