@@ -28,14 +28,14 @@ experience:
     Design Prototyping\n  * Product Management\n  * Data Analytics\n  * Digital Transformation\n  "
 - title: Consultant
   company: LogicBay Corp
-  company_url: http://logicbay.com
+  company_url: https://www.logicbay.com
   company_logo: logicbay
   location: null
   date_start: '2011-12-01'
   date_end: '2018-10-31'
   description: "  Responsibilities include:\n  \n  * Manage the SAAS learning ecosystem\n
-    \ * Organize the yearly workshops\n  * Organize the monthly training webinar\n
-    \ * Capture new requirements\n  * Produce training courses and materials\n  *
+    \ * Use Data Analytics to create reports \n  * Product Operations and Training \n
+    \ * Build BI Dashboards \n  * Produce training courses and materials\n  *
     Produce the product documents\n  "
 
 - title: Engineer & Service Manager
