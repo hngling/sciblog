@@ -89,7 +89,7 @@ Since Data is now an asset, it is crucial to confirm the rights such as ownershi
 
 Any assets have its value. The following three methods can be used for data pricing. All of them have taken the Risk, Quality, Application and Cost into considerations; and they are currently publicly recognized. Each method has its pros and cons and cane be selected based on the specific business scenarios. 
 	
-*	Cost Method: Valuation = replacement cost * depreciation coefficient x expected return coefficient
+*	Cost Method: Valuation = replacement cost * depreciation coefficient * expected return coefficient
 *	Income Method: Valuation = sum of the excess business income
 *	Market Method: Valuation = comparable data asset turnover * correction coefficient
 
