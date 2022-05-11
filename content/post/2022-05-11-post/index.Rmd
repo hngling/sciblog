@@ -2,7 +2,7 @@
 title: 'Tech Post No.5: How to govern Data Asset?'
 author: ''
 date: '2022-05-11'
-slug: This-is-04-22-Post
+slug: This-is-05-11-Post
 categories: ["Tech Article"]
 tags: ["R Markdown"]
 subtitle: ''
