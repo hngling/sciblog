@@ -36,7 +36,8 @@ According to Wikipedia, by definition Data are individual facts, statistics, or 
 
 It could be volunteered data such as Facebook profiles and Instagram photos etc.; it could be the observed data such as location data or online purchase transaction data etc.; it could also be the inferred data such as the customer's credit score or customer's preferences on cuisine etc. Based on International Data Company (IDC)'s forecast, the global data volume will reach 100ZB milestone in 2023 and then 175ZB in 2025. (1 ZB equals to 1024 EB, 1 EB equals to 1024 PB, 1 PB equals to 1024 TB, 1 TB equals to 1024 GB. Hence, 1 ZB is equivalent to 10e12 GB.)
 
-## What are the roles of the relevant parties?
+## What are the roles of the relevant parties? \
+
 We can clearly categorize the relevant parties into three groups of stakeholders as below. 
 	- Individuals: a person who is natural person, or a legal person or a digital persona who are the sources and subjects of personal data.
 	- Private Sector: for-profit businesses or companies or private organizations which involved in the capture, storage, analysis and sharing of personal data for the purposes of developing and/or monetizing related services and applications.
@@ -55,13 +56,13 @@ _Source: Bain and Company, World Economic Forum report_
 In the Data Asset value-chain ecosystem above, there are five key elements.
 
 - 	Personal data: as we explained earlier. 
-
+\
 - 	Creation: via the data source channels (the devices and software), the personal data can be identified and collected through manual or automated processes. 
-
+\
 - 	Storage: throughout the entire life cycle stages, data must be stored in a way that's both secure and accessible. The exact medium used for storage is Cloud-based storage, on-premises servers, and other storage media (like USB drive and CB-ROMs). 
-
+\
 -	Analysis: after the data has been inspected and transformed into a readily usable state, it can be analyzed. Depending on the specific goals, the data analysis can be diagnostic, descriptive, predictive, or prescriptive. It could include various tools and methodologies such as Data Visualizations and Machine Learning techniques. 
-
+\
 -	Consumption: the involving parties can consume the data and leverage the analytical outcomes to achieve their objectives. For instance, the government can identify the criminals or terrorists; the banks can detect the fraudulent transactions.
 
 ## What is the status-quo of Data Ecosystem? Imbalanced! 
@@ -70,7 +71,9 @@ In our current Personal Data Ecosystem, the imbalance phenomenon has become more
 
 As we all know, the personal data is concentrated within some e-commerce and social media enterprises, indicating a more and more obvious integration effect. It is inevitable that there will be a lot of problems arising such as data discrimination, data leakage, information cocoon, and privacy infringement. For small or medium sized enterprises, since they do not possess too much personal data, they cannot develop and compete with existing giants due to the monopolization of data. For individual's perspective, they feel that they are unable to defend the personal rights because of the difficulties derived from the decentralized data asset distribution and management. For the government agencies and regulators, it will be very difficult for them to maintain the fairness of market resource allocation and the stability of the market economy. 
 
-As the leading Internet giants are solidifying its market position, a small number of large companies can have the capacity to collect and analyze data through numerous apps or portals to understand user preferences and habits. In such cases, they can subtly instill their thoughts and objectives to consumers by leveraging their advantages. Realistically speaking, in the current digital age, there is almost no way for people to completely stop the connection from the services provided by these giant companies. However, public users have no knowledge of the process of big data operations. Hence, people are restricted to the "information cocoon" and are driven to make decisions which could highly be possible from the targeted marketing or advertising channels. Other SMEs are also unable to compete with these giant companies, which surely will lead to monopolization by a few companies. If more and more data are concentrated among a small number of giant companies, the entire society could face the issues such as personal privacy and even national security. 
+As the leading Internet giants are solidifying its market position, a small number of large companies can have the capacity to collect and analyze data through numerous apps or portals to understand user preferences and habits. In such cases, they can subtly instill their thoughts and objectives to consumers by leveraging their advantages. Realistically speaking, in the current digital age, there is almost no way for people to completely stop the connection from the services provided by these giant companies. However, public users have no knowledge of the process of big data operations. 
+
+Hence, people are restricted to the "information cocoon" and are driven to make decisions which could highly be possible from the targeted marketing or advertising channels. Other SMEs are also unable to compete with these giant companies, which surely will lead to monopolization by a few companies. If more and more data are concentrated among a small number of giant companies, the entire society could face the issues such as personal privacy and even national security. 
 
 In a nutshell, the Personal Data Ecosystem is hugely imbalanced, and the situation is worsening. We need to act to make it balanced. 
 
@@ -94,16 +97,16 @@ Any assets have its value. The following three methods can be used for data pric
 
 It is necessary to form a new business model focusing on data assets. A well-balanced data ecosystem can help us maximize the economic value of data. The commercialization process will gradually sink to the individuals to form a series of models including data transaction, data bank, data trust, and data intermediary that connects Government, Businesses and Consumers.
 
--	Data Platform Transaction Model: 
+-	Data Platform Transaction Model: \
 it explicitly prices a specific data set and trades with related suppliers. This is a platform that bridges data supply and demand and is supported by third-party professional technologies and government supervision, to eventually realize the transaction and flow of data. This model has resolved the main issues in terms of mutual trust of data, data protection, and data supply and demand.
 
--	Data Bank Model: 
+-	Data Bank Model: \
 basically, the personal data assets can be managed and operated like the banking model, which can achieve centralization and effective management, and in the meantime can realize the added value and smooth flow of personal data, bringing certain benefits to individuals. Under this model, the personal data bank focuses on the protection of the users' ownership, right to know, privacy and income rights to their personal data, and establishes a comprehensive service system for the management and operation of personal big data assets.
 
--	Data Trust Model: 
-In this model, we can deem the Data Asset as a trust property. As other traditional trust property, we can isolate the ownership of the Data Asset and the beneficiary of the Data Asset. Separating the rights and functions such as the ownership, right to use, and right to benefits adequately matches the composite arrangement of trust property rights and ownership. As a result, it can meet the commercial and business requirements.
+-	Data Trust Model: \
+ we can deem the Data Asset as a trust property. As other traditional trust property, we can isolate the ownership of the Data Asset and the beneficiary of the Data Asset. Separating the rights and functions such as the ownership, right to use, and right to benefits adequately matches the composite arrangement of trust property rights and ownership. As a result, it can meet the commercial and business requirements.
 
--	Data Intermediary Model: 
+-	Data Intermediary Model: \
 to avoid the excessive concentration of power in a few giant companies, we need some medium-sized peripheral organizations to act as "Mediator of Individual Data" (MID). They strive for the greatest interests of data creators and obtains reasonable commission based on the benefits obtained. In this model, we can achieve data dignity and produce the balanced power.
 
 ### 	from a societal perspective:
@@ -125,13 +128,14 @@ It is critical to make sure the Personal Data Ecosystem is a balanced system. Ho
 
 
 
-[1] World Economic Forum, https://www3.weforum.org/docs/WEF_ITTC_PersonalDataNewAsset_Report_2011.pdf; 
+[1] World Economic Forum: \
+https://www3.weforum.org/docs/WEF_ITTC_PersonalDataNewAsset_Report_2011.pdf; 
 
-[2] The Economists, 
+[2] The Economists: \
 https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data; 
 
-[3] Wikipedia, 
+[3] Wikipedia: \
 https://en.wikipedia.org/wiki/Data; 
 
-[4] PwC, 
+[4] PwC: \
 https://www.pwccn.com/en/consulting/white-paper-on-data-asset-ecology-nov2020.pdf.
